@@ -1,4 +1,9 @@
-2001-04-19    <damon@ximian.com>
+2001-04-21  Damon Chaplin  <damon@ximian.com>
+
+	* download.html: updated links to tarballs, which are now on the GNOME
+	ftp server only.
+
+2001-04-19  Damon Chaplin  <damon@ximian.com>
 
 	* Initial import of Glade web site.
 
