@@ -95,18 +95,101 @@ Applications</a></b></font></td></tr></table></center>
 </td>
 </tr>					
 </table>					
-<PRE>
 
+<h2>Glade-2</h2>
+<p>
 There won't be much new development on Glade 2 any more.
-As soon as everything works for GTK+ 2 and GNOME 2, only bug fixes
-will be allowed.
+We'll try to add support for the new widgets in GTK+ 2.4 but that will be
+about it.
 
-A rewrite of Glade (called Glade 3) is underway, and is in the glade3
-module in the GNOME cvs repository.
+<h2>Glade-3</h2>
+<p>
+Glade-3 is a complete rewrite of Glade currently under development.
 
-Damon, 24 Nov 2002
+<p>
+For the end user the most noticeable differences are:
+<ul>
+<li> Undo/Redo support in all the operations.
+<li> Open multiple projects at same time.
+<li> Removal of code generation.
+</ul>
 
-</PRE>
+<p>
+With regard to the last item, note that code generation has been deprecated
+for a long time: the preferred solution is using 
+<a href="http://www.daa.com.au/~james/software/libglade">libglade</a>.
+If you want to use code generation at any cost, the way to go is using an
+external tool to process the .glade file and output code in your language of
+choice. The format of the .glade file is the same as Glade-2.
+
+<p>
+Most of the differences with Glade-2 are in the internals, in fact
+Glade-3 is a complete rewrite of the Glade codebase. This was chosen to take 
+advantage of the new features of GTK+ 2 and of the GObject sytem (Glade-3
+was started when Glade-2 hadn't been ported yet to GTK+ 2).
+As a consequence, the Glade-3 codebase is smaller and allows new interesting
+things, including:
+
+<ul>
+<li> Catalogs of widgets that are "pluggable", this means that external libraries can
+provide their set of widgets at runtime and Glade will detect them. As a matter of fact
+Glade-3 comes with standard GTK+ widgets only; Gnomeui and Gnome-db widgets will be
+provided separately.
+<li> The various Glade Tools (palette, editor, etc) are implemented as widgets,
+this should allow easier integration in IDEs like Anjuta or Scaffold. This will
+also make way easier change the Glade UI, even if for the first milestone we plan
+to simply clone the current UI.
+</ul>
+
+<p>
+<p>
+<h2>Glade-3 wants you</h2>
+<p>
+Glade-3 is not much far from being usable, but unfortunately at the moment the
+developement is not as fast paced as we would like. Given that the Glade user base
+is mostly made of developers it would be great if you could help with it: work on 
+Glade-3 may be a great learning experience since the difficulty of things you can
+work on range from basic GTK+ GUI programming to the deep secrets of the GObject system.
+<p>
+If you don't have the time to help with programming, testing and reporting bugs would
+still be greatly appreciated.
+<p>
+For a list of things that need doing, check out the 
+<a href="http://cvs.gnome.org/lxr/source/glade3/TODO">TODO file</a> and the 
+<a href="http://bugzilla.gnome.org/buglist.cgi?product=glade3&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&order=Reuse+same+sort+as+last+time&form_name=query"> bugs in bugzilla</a>.
+
+<p>
+<p>
+<h2>Download</h2>
+<p>
+Glade-3 hasn't been released yet, so there are no tarballs at the moment.<br>
+You can get the code from GNOME cvs with the following commands:
+<p>
+<tt>cvs -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login</tt> [just press enter when asked for a password]<br>
+<tt>cvs -z3 -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co glade3</tt><br>
+<p>
+Then to build enter the glade3 directory and run the usual:
+<p>
+<tt>
+./autogen<br>
+make<br>
+make install<br>
+</tt>
+
+<p>
+<p>
+<h2>Feedback</h2>
+<p>
+For bug reports, comments, questions and hopefully patches you can write to the
+<a href="lists.html">glade-devel</a> list. If you prefer you can also fill bugreports
+in <a href="http://bugzilla.gnome.org">bugzilla</a> (glade3 product).
+
+<p>
+<p>
+
+</center>
+</font>
+
 </td>
 </tr>
 <tr valign="bottom">
