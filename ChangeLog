@@ -1,3 +1,9 @@
+2001-04-27  Damon Chaplin  <damon@ximian.com>
+
+	* index.html: 
+	* apps.html: added news item and apps link to Progeny Debian, which
+	uses Glade.
+
 2001-04-21  Damon Chaplin  <damon@ximian.com>
 
 	* index.html: added news items for 0.6.2 and the website move.
