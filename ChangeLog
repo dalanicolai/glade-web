@@ -1,5 +1,11 @@
 2001-04-21  Damon Chaplin  <damon@ximian.com>
 
+	* index.html: added news items for 0.6.2 and the website move.
+
+	* history.html: added news items for 0.6.0 to 0.6.2.
+
+2001-04-21  Damon Chaplin  <damon@ximian.com>
+
 	* download.html: updated links to tarballs, which are now on the GNOME
 	ftp server only.
 
