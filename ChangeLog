@@ -1,3 +1,8 @@
+2002-12-02  Damon Chaplin  <damon@gnome.org>
+
+	* glade-2.0.dtd: added to web site, so links from Glade XML files
+	point to the DTD.
+
 2002-11-24  Damon Chaplin  <damon@kendo.fsnet.co.uk>
 
 	* apps.html: added glocate2.
