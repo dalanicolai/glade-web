@@ -1,5 +1,8 @@
 2003-11-09  Damon Chaplin  <damon@gnome.org>
 
+	* download.html: 
+	* index.html: add stuff for 2.0.1 release.
+
 	* apps.html: added configure-thinkpad.
 
 	* lists.html: add link to glademm mailing list.
