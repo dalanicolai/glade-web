@@ -1,3 +1,11 @@
+2004-12-14  Damon Chaplin  <damon@gnome.org>
+
+	* history.html: 
+	* index.html: 
+	* download.html: added info on releases up to 2.6.7.
+
+	* apps.html: added Warehouse Manager.
+
 2004-12-02  Damon Chaplin  <damon@gnome.org>
 
 	* apps.html: added configure-trackpoint.
