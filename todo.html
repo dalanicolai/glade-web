@@ -1,0 +1,166 @@
+<HTML>
+<HEAD>
+<TITLE>GLADE GTK+ User Interface Builder</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" alink="#FF60FF" topmargin="5">
+<a name="anfang"></a>
+<basefont size="3">
+<font face="Arial,helvetica,geneva,sans-serif,lucida">
+<center>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+<tr valign="top">
+<td align="center" bgcolor="#7962FF" width="150">
+<center>
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="170">
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="index.html">
+Homepage</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="features.html">
+Features</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>						
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="download.html">
+Download</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="history.html">
+History</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#AAAAAA">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b>
+ToDo</b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160 bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="lists.html">
+Mailing Lists</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="links.html">
+Links</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+<tr height="43">
+<td align="center" width="160" bgcolor="#7962FF" height="43"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%" height="40">
+<tr><td align="center" bgcolor="#DDDDDD">
+<font face="Arial,helvetica,geneva,sans-serif,lucida"><b><a href="apps.html">
+Applications</a></b></font></td></tr></table></center>		  	
+</td>
+</tr>
+</table>
+</center>
+</td>
+<td bgcolor="#FFFFFF" rowspan="2"><img src="graphics/1x1.gif" width="10"></td>
+<td bgcolor="#FFFFFF" width="100%">
+<center>
+<img src="graphics/glade_logo.gif" border="0" width="410" height="126" alt="GLADE Logo">
+</center>				
+<center><hr></center>
+<p><font face="Arial,helvetica,geneva,sans-serif,lucida">
+<table cellspacing="0" cellpadding="5" border="0">
+<tr bgcolor="#7962FF">
+<td colspan="4">
+<font size="+2" face="Arial,helvetica,geneva,sans-serif,lucida">
+<b>&#149;&nbsp;&nbsp;Road Map:</b>
+</font>
+</td>
+</tr>					
+</table>					
+<PRE>
+
+Some of the longer-term plans are:
+
+  - Support external widgets/components, using gmodule's dynamic loading and
+	GTK+'s support for getting/setting widget Args, and also Gnome's
+	bonobo component model (we already have partial support for Bonobo.)
+
+  - A Corba interface, so Glade can be integrated with IDEs or other apps that
+	want a form builder, e.g. gnome-db, evolution.
+
+  - Improved source code output.
+
+	We could use structs to hold pointers to all widgets instead
+	of the current method of storing pointers by using
+	gtk_object_set_data() and letting the user get them
+	using lookup_widget(). This is too cumbersome.
+
+	We could also place source code for each component in a
+	separate file, including the signal handler functions which
+	users edit. Comments would be used to delimit generated
+	source code, so we can regenerate without affecting user
+	code.
+
+	May also include a simple editor to allow code to be edited
+	within Glade.
+
+  - Rewrite property editor (as an Object), so you can set the properties of
+	multiple widgets at once. Also move all properties onto one scrollable
+	page, and have one other page for signal handlers. Move style and
+	accelerator properties to separate dialogs. For the signal handlers,
+	list all available signals with an entry to set the handler function
+	name and a button to show the handler source code?
+
+  - Support for Styles & rc files.
+
+  - Make it easy to develop database apps. We have some support for GnomeDB,
+    though this needs a lot more work.
+
+  - Support for Undo/Redo.
+
+
+Damon, 24 Sep 2000
+
+</PRE>
+</td>
+</tr>
+<tr valign="bottom">
+<td align="center" width="150" bgcolor="#7962FF"><center>
+<table cellspacing="4" cellpadding="0" border="0" width="100%">
+<tr><td align="center" bgcolor="#7962FF">
+<font face="Arial,helvetica,geneva,sans-serif,lucida" size="-1">
+<a href="#anfang">Go Up</a></font></td></tr></table></center>		  	
+</td>
+<td bgcolor="#FFFFFF" align="center">
+<center><hr>
+<a href="http://www.gimp.org">
+<img src="graphics/gimp.gif" width="90" height="36" alt="GIMP Banner" border="0"></a><br>
+<font size="2" face="Arial,helvetica,geneva,sans-serif,lucida">
+Please copy and use what you want from this site.<br></font>
+<a href="mailto:webmaster@hhips.de"><font size="2" face="Arial,helvetica,geneva,sans-serif,lucida">
+webmaster@hhips.de</font></a></center>					
+</td>
+</tr>
+</table>
+</center>
+</font>
+</BODY>
+</HTML>
