@@ -1,3 +1,10 @@
+2003-04-28  Damon Chaplin  <damon@gnome.org>
+
+	* index.html: added pointer to Dutch translation of manual.
+
+	* apps.html: moved TiLP to Glade 2 section and mentioned it uses
+	libglade. Added gequel.
+
 2003-04-20  Damon Chaplin  <damon@gnome.org>
 
 	* index.html: 
