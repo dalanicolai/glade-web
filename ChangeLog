@@ -1,3 +1,8 @@
+2003-02-08  Damon Chaplin  <damon@gnome.org>
+
+	* index.html: 
+	* apps.html: changed my email address to damon@gnome.org.
+
 2002-12-02  Damon Chaplin  <damon@gnome.org>
 
 	* glade-2.0.dtd: added to web site, so links from Glade XML files
