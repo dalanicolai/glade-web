@@ -1,3 +1,9 @@
+2002-02-06  Damon Chaplin  <damon@ximian.com>
+
+	* index.html: 
+	* download.html: 
+	* history.html: added 0.6.4 release stuff.
+
 2002-02-04  Damon Chaplin  <damon@ximian.com>
 
 	* apps.html: added AVR Delay loop Generator.
