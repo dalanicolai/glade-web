@@ -1,7 +1,10 @@
 2001-10-02  Damon Chaplin  <damon@ximian.com>
 
+	* links.html: added links for Ruby.
+
 	* apps.html: commented out a few broken links, and updated a few.
 	I didn't manage to check through many, though.
+	Added dSQL.
 
 2001-08-22  Damon Chaplin  <damon@ximian.com>
 
