@@ -1,3 +1,9 @@
+2003-11-09  Damon Chaplin  <damon@gnome.org>
+
+	* apps.html: added configure-thinkpad.
+
+	* lists.html: add link to glademm mailing list.
+
 2003-10-22  Damon Chaplin  <damon@gnome.org>
 
 	* FAQ: synced with version in Glade.
