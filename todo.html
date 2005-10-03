@@ -49,7 +49,7 @@ Glade 3 is a complete rewrite of Glade currently under development.
 <ul>
 <li>Undo/Redo support in all the operations.</li>
 <li>Open multiple projects at same time.</li>
-<li> Removal of code generation.</li>
+<li>Removal of code generation.</li>
 </ul>
 
 <p>
@@ -76,30 +76,40 @@ Glade-3 comes with standard GTK+ widgets only; Gnomeui and Gnome-db widgets will
 provided separately.
 </li><li>The various Glade Tools (palette, editor, etc) are implemented as widgets,
 this should allow easier integration in IDEs like Anjuta or Scaffold. This will
-also make way easier change the Glade UI, even if for the first milestone we plan
+also make it alot easier change the Glade UI, even if for the first milestone we plan
 to simply clone the current UI.
 </li></ul>
 
 <h2>Glade-3 wants you</h2>
 <p>
-Glade-3 is not much far from being usable, but unfortunately at the moment the
-developement is not as fast paced as we would like. Given that the Glade user base
-is mostly made of developers it would be great if you could help with it: work on 
-Glade-3 may be a great learning experience since the difficulty of things you can
-work on range from basic GTK+ GUI programming to the deep secrets of the GObject system.
+Glade-3 is quite stable, but unfortunately at the moment the developement is not as 
+fast paced as we would like and there are still some large unfinished portions of
+the code base left to be written. 
+Given that the Glade user base is mostly made of developers it would be great if you 
+could help with it: work on Glade-3 may be a great learning experience since the 
+difficulty of things you can work on range from basic GTK+ GUI programming to the 
+deep secrets of the GObject system.
 </p><p>
-If you don't have the time to help with programming, testing and reporting bugs would
+If you don't have the time to help with programming; testing and reporting bugs would
 still be greatly appreciated.
 </p><p>
 For a list of things that need doing, check out the 
-<a href="http://cvs.gnome.org/lxr/source/glade3/TODO">TODO file</a> and the 
 <a href="http://bugzilla.gnome.org/buglist.cgi?product=glade3&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;changedin=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;short_desc=&amp;short_desc_type=substring&amp;long_desc=&amp;long_desc_type=substring&amp;bug_file_loc=&amp;bug_file_loc_type=substring&amp;status_whiteboard=&amp;status_whiteboard_type=substring&amp;keywords=&amp;keywords_type=anywords&amp;op_sys_details=&amp;op_sys_details_type=substring&amp;version_details=&amp;version_details_type=substring&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;form_name=query"> bugs in bugzilla</a>.
 </p>
 
 <h2>Download</h2>
 <p>
-Glade-3 hasn't been released yet, so there are no tarballs at the moment.
-You can get the code from GNOME cvs with the following commands:
+You can always get the latest development snapshot 
+<a href="http://ftp.gnome.org/pub/GNOME/sources/glade-3/"> here</a> and build it with
+the usual:
+</p><p>
+<tt>
+./configure<br/>
+make<br/>
+make install<br/>
+</tt>
+</p><p>
+You can also get the bleeding edge code from GNOME cvs with the following commands:
 </p><p>
 <tt>cvs -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login</tt> [just press enter when asked for a password]<br/>
 <tt>cvs -z3 -d:pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co glade3</tt><br/>
@@ -116,8 +126,7 @@ make install<br/>
 <h2>Feedback</h2>
 <p>
 For bug reports, comments, questions and hopefully patches you can write to the
-<a href="http://glade.gnome.org/lists.html">glade-devel</a> list. If you prefer you can also fill bugreports
-in <a href="http://bugzilla.gnome.org/">bugzilla</a> (glade3 product).
+<a href="http://glade.gnome.org/lists.html">glade-devel</a> list. If you prefer you can also fill bugreports in <a href="http://bugzilla.gnome.org/">bugzilla</a> (glade3 product).
 </p>
 </div>
 
