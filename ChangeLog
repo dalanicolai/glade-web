@@ -1,5 +1,10 @@
-2005-10-03  Tristan Van Berkom  <tvb@gnome.org>
+2006-05-13  Tristan Van Berkom  <tvb@gnome.org>
 
+	* todo.html: Updated status & planning of Glade-3, linked in the
+	  api docs.
+
+2005-10-03  Tristan Van Berkom  <tvb@gnome.org>
+	
 	* todo.html: Adjusted information regarding Glade 3, notably; added
 	  a reference to the GNOME download directory.
 
