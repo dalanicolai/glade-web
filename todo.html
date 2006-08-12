@@ -24,7 +24,8 @@
         <a href="todo.html">Future</a> &#x00b7;
         <a href="lists.html">Mailing Lists</a> &#x00b7;
         <a href="links.html">Links</a> &#x00b7;
-        <a href="apps.html">Applications</a>
+        <a href="apps.html">Applications</a> &#x00b7;
+        <a href="docs/index.html">Documentation</a>
       </div>
  
 </div>
@@ -33,66 +34,16 @@
 <div id="content">
 <h1>Glade Future Plans</h1>				
 
-<h2>Glade 2</h2>
+<h2>Glade status and planning</h2>
 <p>
-There won't be much new development on Glade 2 any more.
-We'll try to add support for new GTK+ features until Glade 3 is ready
-but there probably won't be many other changes.
+Glade 3 is just finally now released - we will now be doing bugfixes on the
+3.0 series and have alot of exciting plans for the future... We'll have to
+update this page and let you know more soon...
 </p>
-
-<h2>Glade 3</h2>
-<p>
-Glade 3 is a complete rewrite of Glade currently under development.
-</p>
-
-<p>For the end user the most noticeable differences are:</p>
-<ul>
-<li>Undo/Redo support in all the operations.</li>
-<li>Open multiple projects at same time.</li>
-<li>Removal of code generation.</li>
-</ul>
-
-<p>
-With regard to the last item, note that code generation has been deprecated
-for a long time: the preferred solution is using 
-<a href="http://www.daa.com.au/%7Ejames/software/libglade">libglade</a>.
-If you want to use code generation at any cost, the way to go is using an
-external tool to process the .glade file and output code in your language of
-choice. The format of the .glade file is the same as Glade-2.
-
-</p><p>
-Most of the differences with Glade-2 are in the internals, in fact
-Glade-3 is a complete rewrite of the Glade codebase. This was chosen to take 
-advantage of the new features of GTK+ 2 and of the GObject sytem (Glade-3
-was started when Glade-2 hadn't been ported yet to GTK+ 2).
-As a consequence, the Glade-3 codebase is smaller and allows new interesting
-things, including:
-
-</p>
-<ul>
-<li> Catalogs of widgets that are "pluggable", this means that external libraries can
-provide their set of widgets at runtime and Glade will detect them. As a matter of fact
-Glade-3 comes with standard GTK+ widgets only; Gnomeui and Gnome-db widgets will be
-provided separately.
-</li><li>The various Glade Tools (palette, editor, etc) are implemented as widgets,
-this should allow easier integration in IDEs like Anjuta or Scaffold. This will
-also make it alot easier change the Glade UI.
-</li></ul>
-
-
-<h2>Glade-3 status and planning</h2>
-<p>
-Glade-3 is only a few features and bugfixes away from covering the full feature
-set of Glade-2, the plan is to get these last fixes in and make a stable "3.0" 
-release so that we can start integrating all the interesting non-widget objects 
-relevent to the UI. Since this is going to require another vehicle than current 
-versions of libglade the codebase may change dramaticly; so that is the first
-thing I want to address.
-</p>
-<h2>Glade-3 wants you</h2>
+<h2>Glade wants you</h2>
 <p>
 Given that the Glade user base is mostly made of developers it would be great
-if you could help with it: work on Glade-3 may be a great learning experience 
+if you could help with it: work on Glade may be a great learning experience 
 since the difficulty of things you can work on range from basic GTK+ GUI 
 programming to the deep secrets of the GObject system.
 </p><p>
@@ -106,7 +57,7 @@ For a list of things that need doing, check out the
 <h2>Download</h2>
 <p>
 You can always get the latest
-<a href="http://ftp.gnome.org/pub/GNOME/sources/glade-3/">development snapshot</a>
+<a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/">release</a>
 and build it with the usual:
 </p><p>
 <tt>
@@ -127,11 +78,6 @@ Then to build enter the glade3 directory and run the usual:
 make<br/>
 make install<br/>
 </tt>
-</p><p>
-Glade-3 now also has
-<a href="http://gnome.org/~tvb/glade_api/">documentation</a> to help you add your
-own widget implementations to the builder at runtime, integrate Glade-3 into your
-own IDE tool, or ofcourse; improve Glade-3 itself ;-)
 </p>
 
 <h2>Feedback</h2>

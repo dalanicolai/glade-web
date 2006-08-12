@@ -1,3 +1,10 @@
+2006-08-12  Tristan Van Berkom  <tvb@gnome.org>
+
+	* index.html, download.html, todo.html, apps.html, screenshots.html,
+	  lists.html, history.html, docs/*, graphics/*:
+	  Updated with new Glade 3.0 release, added screenshots, added glade core
+	  library documentation, made some other minor changes.
+	
 2006-05-13  Tristan Van Berkom  <tvb@gnome.org>
 
 	* todo.html: Updated status & planning of Glade-3, linked in the
