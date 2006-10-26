@@ -1,3 +1,8 @@
+2006-10-26  Tristan Van Berkom  <tvb@gnome.org>
+
+	* todo.html, download.html: moved cvs access information
+	  to the download page, added branch info.
+
 2006-10-04  Tristan Van Berkom  <tvb@gnome.org>
 
 	* todo.html: Starting the public TODO list
