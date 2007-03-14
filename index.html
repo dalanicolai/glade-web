@@ -65,89 +65,76 @@ http://ftp.gnome.org/pub/GNOME/sources/glade/</a>
 <hr>
 <h2>Latest News:</h2>
 <table border="0" cellpadding="5" cellspacing="0">
-  <tbody>
-    <tr>
-       <td style="vertical-align: top;"><br>
-        </td>
-     <td style="vertical-align: top;"><b>Feb 13 2007</b></td>
-           <td style="vertical-align: top;"><br>
-          </td>
-       <td style="vertical-align: top;"><b>Glade 3.1.5 </b><b> released!<br>
-		      <br>
-					            </b><b> </b> Get it at <a
-				     href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">
-						     http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
-						           <br>
-							   Development version bugfix release.<br>
-							         <br>
-								 New features and fixes<br>
-								       <ul>
-								       <li> Fixed build problem with autoconf 2.60 wrt. datarootdir (bug 392379) - Christian Persch</li>
-								       <li> Added version to bugzilla info in the .desktop file  (bug 392395) - Christian Persch</li>
-								       <li> Bind the gettext domain (bug 397429) - Christian Persch</li>
-								       <li> Setup online manual - Vincent Geddes</li>
-								       <li> use xmlSubstituteEntitiesDefault() when loading/saving glade files (bug 396311) - anonymous
-								             patch submitter</li>
-									     <li> Use standard "translator-credits" property the standard way in the about dialog - Vincent Geddes</li>
-									     <li> GladeCommand refactoring work, allows for multiple paste commands now (bug 345603) - Jeff Westerinen</li>
-									     <li> Reorganized package directory structure and adapted makefiles - Vincent Geddes</li>
-									     <li> Renamed some things to fit more with the HIG - Vincent Geddes</li>
-									     <li> Fixed obnoxious startup errors (bug 399178) - Tristan Van Berkom</li>
-									     <li> Implement concept of "use-placeholders" for container adaptors to distinguish
-									           whether they use placehodlers for thier children (the core handles them
-										         differently), note that menuitems,fixed,toolbar etc dont use placeholders 
-											       for thier children - Tristan Van Berkom</li>
-											       <li> Fixed packing defaults (a menubar in a HBox is initially expand = False) - Tristan Van Berkom</li>
-											       <li> Fixed the layout to not touch default-width/default-height implicitly when resizing the toplevel inside
-											             the workspace, this required some refactoring too - Tristan Van Berkom</li>
-												     <li> Completely reworked event handling, considerably reduced lines of code involved and
-												           improved stability, also now drag/resize is only available with the SHIFT modifier active, 
-													         as a side effect, you can now also interact with project widgets in the workspace much
-														       better. - Tristan Van Berkom</li>
-														       <li> Implemented undo/redo for i18n property metadata (bug 352454) - Jeff Westerinen</li>
-														       <li> Fixed translations of strings from the catalog and some strings in the about 
-														             dialog (bug 404917) - Tristan Van Berkom</li>
-															     <li> Added the new glade icon - Andreas Nilsson</li>
-															     <li> Fixed compilation of python code - Paul</li>
-															     <li> Call GNOME_DOC_INIT unconditionally (Bug 392411) - Christian Persch</li>
-															     <li> Improved configure check for python - Vincent Geddes</li>
-															           </ul>
-																         </td>
-																	     </tr>
+	<tbody>
+	<tr>
+	<td style="vertical-align: top;"><br></td>
+	<td style="vertical-align: top;"><b>Mar 12 2007</b></td>
+	<td style="vertical-align: top;"><br></td>
+	<td style="vertical-align: top;"><b>Glade 3.2 </b><b> released!<br>
+		<br></b><b> </b> Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.2/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.2/</a><br>
+		<br>New development version released!, This is the first version included in GNOME 2.18<br><br>New features and fixes<br>
+		<ul>
+			<li>Fixed sources to build with gcc 2.95 (bug 406504) - Jens Granseuer</li>
+			<li>Fixed the imfamous: "Not able to set label and stock separately in GtkImageMenuItems" (bug 397043) - Juan Pablo Ugarte</li>
+			<li>Added remaining missing icons - Vincent Geddes</li>
+			<li>Use locale independent integer and float parsing routines (bug 396433) - Christian Persch</li>
+			<li>Save some properties unconditionally (bug 412848) - Tristan Van Berkom</li>
+			<li>Revived accelerator & atk relationset properties (bug 383121) - Tristan Van Berkom</li>
+			<li>other bug fixes by Nickolay V. Shmyrev, Christian Persch, Vincent Geddes, Halton Huo</li>
+		</ul>
+	</td>
+	</tr>
+	<tr>
+	<td style="vertical-align: top;"><br></td>
+	<td style="vertical-align: top;"><b>Feb 13 2007</b></td>
+	<td style="vertical-align: top;"><br></td>
+	<td style="vertical-align: top;"><b>Glade 3.1.5 </b><b> released!<br>
+		<br></b><b> </b> Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
+		<br>Development version bugfix release.<br><br>New features and fixes<br>
+		<ul>
+			<li> Fixed build problem with autoconf 2.60 wrt. datarootdir (bug 392379) - Christian Persch</li>
+			<li> Added version to bugzilla info in the .desktop file  (bug 392395) - Christian Persch</li>
+			<li> Bind the gettext domain (bug 397429) - Christian Persch</li>
+			<li> Setup online manual - Vincent Geddes</li>
+			<li> use xmlSubstituteEntitiesDefault() when loading/saving glade files (bug 396311) - anonymous patch submitter</li>
+			<li> Use standard "translator-credits" property the standard way in the about dialog - Vincent Geddes</li>
+			<li> GladeCommand refactoring work, allows for multiple paste commands now (bug 345603) - Jeff Westerinen</li>
+			<li> Reorganized package directory structure and adapted makefiles - Vincent Geddes</li>
+			<li> Renamed some things to fit more with the HIG - Vincent Geddes</li>
+			<li> Fixed obnoxious startup errors (bug 399178) - Tristan Van Berkom</li>
+			<li> Implement concept of "use-placeholders" for container adaptors to distinguish whether they use placehodlers for thier children (the core handles them differently), note that menuitems,fixed,toolbar etc dont use placeholders for thier children - Tristan Van Berkom</li>
+			<li> Fixed packing defaults (a menubar in a HBox is initially expand = False) - Tristan Van Berkom</li>
+			<li> Fixed the layout to not touch default-width/default-height implicitly when resizing the toplevel inside the workspace, this required some refactoring too - Tristan Van Berkom</li>
+			<li> Completely reworked event handling, considerably reduced lines of code involved and improved stability, also now drag/resize is only available with the SHIFT modifier active, as a side effect, you can now also interact with project widgets in the workspace much better. - Tristan Van Berkom</li>
+			<li> Implemented undo/redo for i18n property metadata (bug 352454) - Jeff Westerinen</li>
+			<li> Fixed translations of strings from the catalog and some strings in the about dialog (bug 404917) - Tristan Van Berkom</li>
+			<li> Added the new glade icon - Andreas Nilsson</li>
+			<li> Fixed compilation of python code - Paul</li>
+			<li> Call GNOME_DOC_INIT unconditionally (Bug 392411) - Christian Persch</li>
+			<li> Improved configure check for python - Vincent Geddes</li>
+			<ul>
+		</td>
+	</tr>
     <tr>
       <td style="vertical-align: top;"><br>
       </td>
       <td style="vertical-align: top;"><b>Dec 05 2006</b></td>
       <td style="vertical-align: top;"><br>
       </td>
-      <td style="vertical-align: top;"><b>Glade 3.1.2 </b><b> released
-!<br>
+      <td style="vertical-align: top;"><b>Glade 3.1.2 </b><b> released!<br>
       <br>
-      </b><b> </b> Get it at <a
- href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">
-http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
-      <br>
-Development version bugfix release.<br>
-      <br>
-New features and fixes<br>
+      </b><b> </b> Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
+      <br>Development version bugfix release.<br>
+      <br>New features and fixes<br>
       <ul>
-        <li>Use GtkRecent and removed manual recent project handling
-(Vincent Geddes)</li>
-        <li>Refactoring of UI frontend &amp; palette code (Vincent
-Geddes)</li>
-        <li>Selector button from the palette is now hidden and one is
-placed on the toolbar instead (Vincent Geddes)</li>
-        <li>Refactoring of core/plugin interface, now the plugin
-derives an adaptor type to interface with the core.</li>
-        <li>New bindings framework, this includes a bindings core
-module and an initial implementation of the python binding (Juan Pablo
-Ugarte)</li>
-        <li>Added core support for plugins to implement actions on the
-context menu, AND support for scripted context menu actions (Juan Pablo
-Ugarte)</li>
+        <li>Use GtkRecent and removed manual recent project handling (Vincent Geddes)</li>
+        <li>Refactoring of UI frontend &amp; palette code (Vincent Geddes)</li>
+        <li>Selector button from the palette is now hidden and one is placed on the toolbar instead (Vincent Geddes)</li>
+        <li>Refactoring of core/plugin interface, now the plugin derives an adaptor type to interface with the core.</li>
+        <li>New bindings framework, this includes a bindings core module and an initial implementation of the python binding (Juan Pablo Ugarte)</li>
+        <li>Added core support for plugins to implement actions on the context menu, AND support for scripted context menu actions (Juan Pablo Ugarte)</li>
         <li>Cleanup of gnome catalog code (Juan Pable Ugarte)</li>
-        <li>Misc bugfixes by Vincent, Juan Pablo, Andreas Köhler and
-myself.</li>
+        <li>Misc bugfixes by Vincent, Juan Pablo, Andreas Köhler and myself.</li>
       </ul>
       </td>
     </tr>
@@ -160,23 +147,14 @@ myself.</li>
       <td style="vertical-align: top;"><b>Glade 3.1.0 </b><b> released
 !<br>
       <br>
-      </b><b> </b> Get it at <a
- href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">
-http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
-      <br>
-New development version released, check out the new UI!<br>
-      <br>
-New features and fixes<br>
+      </b><b> </b> Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.1/</a><br>
+      <br>New development version released, check out the new UI!<br>
+	<br>New features and fixes<br>
       <ul>
         <li>Embedded toplevel widgets - phase one (Vincent Geddes)</li>
-        <li>Integrated one window application layout - phase one
-(Vincent Geddes)</li>
-        <li>Architechtural change, GladeWidgetClass structures now
-swapped for a GladeWidgetAdaptor object, classes are then generated
-while reading the catalog (thus deffering all the OO mechanics to the
-GType system).</li>
-        <li>Fixed "-"/"_" mangling in translatable string comments (bug
-363598) (Jonas Berlin)</li>
+        <li>Integrated one window application layout - phase one (Vincent Geddes)</li>
+        <li>Architechtural change, GladeWidgetClass structures now swapped for a GladeWidgetAdaptor object, classes are then generated while reading the catalog (thus deffering all the OO mechanics to the GType system).</li>
+        <li>Fixed "-"/"_" mangling in translatable string comments (bug 363598) (Jonas Berlin)</li>
       </ul>
       </td>
     </tr>
@@ -188,48 +166,28 @@ GType system).</li>
       </td>
       <td><b>Glade 3.0.2 </b><b> released !</b><b><br>
       </b>
-      <p>Get it at <a
- href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">
-http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>.<br>
+      <p>Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>.<br>
       </p>
-      <p>This is a bugfix release to 3.0 and it fixed the known
-crashers and most
-of the more critical problems in 3.0.1 </p>
+      <p>This is a bugfix release to 3.0 and it fixed the known crashers and most of the more critical problems in 3.0.1 </p>
       <p>New features and fixes:</p>
       <ul>
-        <li>Fixed some properties to be translatable (reported by
-Olivier Rolland)</li>
-        <li>Now use non-locale specific functions to write out double
-values to
-glade files, revert to use floating precision in adjustments.</li>
+        <li>Fixed some properties to be translatable (reported by Olivier Rolland)</li>
+        <li>Now use non-locale specific functions to write out double values to glade files, revert to use floating precision in adjustments.</li>
         <li>Signal editor UI improved (bug 127149) (Juan Pablo Ugarte)</li>
-        <li>Reimplemented file drag and drop (bug 352458) (Vincent
-Geddes)</li>
-        <li>Fixed accelerator dialog segfaults (bug 352825) (Juan Pablo
-Ugarte)</li>
+        <li>Reimplemented file drag and drop (bug 352458) (Vincent Geddes)</li>
+        <li>Fixed accelerator dialog segfaults (bug 352825) (Juan Pablo Ugarte)</li>
         <li>Improved GtkPaned support (bug 345075) (Juan Pablo Ugarte)</li>
-        <li>Backing out multiple consecutive pastes (reopening bug
-345603)
-(this fixes menu editor segfaults among other things)</li>
+        <li>Backing out multiple consecutive pastes (reopening bug 345603)(this fixes menu editor segfaults among other things)</li>
         <li>Fixed ComboBoxEntry crash (bug 354716) (Juan Pablo Ugarte)</li>
-        <li>Ordering of properties in the editor window (bug 345893)
-(Juan Pablo Ugarte)</li>
-        <li>Allow a dynamic user-editable comment prepended to the
-glade file (Bug 342889) (Juan Pablo Ugarte)</li>
-        <li>Added new stock listing that includes the stock "images"
-(which
-are not gtk+ stock "items"), and enabled them for GtkImage and
-GtkToolItem. (bug 353522)</li>
-        <li>GtkImage now defaults to an initial "gtk-broken-image"
-stock type.</li>
-        <li>Ignore "enable-grid-lines" 2.10 property on treeview since
-it causes crashes on load (fixes bug 353611)</li>
-        <li>Added displayable values for "enable-grid-lines" 2.10
-property</li>
+        <li>Ordering of properties in the editor window (bug 345893)(Juan Pablo Ugarte)</li>
+        <li>Allow a dynamic user-editable comment prepended to the glade file (Bug 342889) (Juan Pablo Ugarte)</li>
+        <li>Added new stock listing that includes the stock "images" (which are not gtk+ stock "items"), and enabled them for GtkImage and GtkToolItem. (bug 353522)</li>
+        <li>GtkImage now defaults to an initial "gtk-broken-image" stock type.</li>
+        <li>Ignore "enable-grid-lines" 2.10 property on treeview since it causes crashes on load (fixes bug 353611)</li>
+        <li>Added displayable values for "enable-grid-lines" 2.10 property</li>
         <li>Set some HIG-ish defaults on dialogs</li>
         <li>Fixed lost icons on images (bug 353126) (Juan Pablo Ugarte)</li>
-        <li>Namespace issues with libglade initial fix (Juan Pablo
-Ugarte)</li>
+        <li>Namespace issues with libglade initial fix (Juan Pablo Ugarte)</li>
         <li>Few more misc fixes by Juan Pablo and myself.</li>
       </ul>
       <p> </p>
@@ -243,34 +201,20 @@ Ugarte)</li>
       </td>
       <td><b>Glade 3.0.1 </b><b> released !</b><b><br>
       </b>
-      <p>Get it at <a
- href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">
-http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>.<br>
+      <p>Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>.<br>
       </p>
-      <p>NOTE - This is a follow up bugfix release to 3.0 and includes
-alot of misc fixes thanks to&nbsp;all the bugzilla attention we've been
-getting...thanks for all the bug reports everyone ! </p>
+      <p>NOTE - This is a follow up bugfix release to 3.0 and includes alot of misc fixes thanks to&nbsp;all the bugzilla attention we've been getting...thanks for all the bug reports everyone ! </p>
       <p>New features and fixes:</p>
       <ul>
-        <li>Pasting a widget does not paste the packing options (bug
-345604) (Juan Pablo Ugarte) </li>
-        <li>Now you can paste widgets to your hearts content (bug
-345603) </li>
+        <li>Pasting a widget does not paste the packing options (bug 345604) (Juan Pablo Ugarte) </li>
+        <li>Now you can paste widgets to your hearts content (bug 345603) </li>
         <li>Fixed expander widgets (they were missing placeholders). </li>
-        <li>Adjustments are saved without floating point precision in
-the glade file (reports of glade-- code generator disliking the decimal
-points). </li>
-        <li>Fixed an embarrassing segfault when removing items using
-the menu/toolbar editor (Juan Pablo) </li>
-        <li>Interface signals are now properly introspected +
-alphabetically sorted (Juan Pablo) </li>
-        <li>Removed some properties on children internal to composite
-widgets, properties that we're controlled by style properties on the
-GtkDialog widget (bug 352018). </li>
-        <li>Enhancements to the "Projects" menu + minor UI enhancements
-(Vincent Geddes) </li>
-        <li>Palette items can be locked down with CNTL-click matching
-glade-2 behaviour (bug 303679)</li>
+        <li>Adjustments are saved without floating point precision in the glade file (reports of glade-- code generator disliking the decimal points). </li>
+        <li>Fixed an embarrassing segfault when removing items using the menu/toolbar editor (Juan Pablo) </li>
+        <li>Interface signals are now properly introspected + alphabetically sorted (Juan Pablo) </li>
+        <li>Removed some properties on children internal to composite widgets, properties that we're controlled by style properties on the GtkDialog widget (bug 352018). </li>
+        <li>Enhancements to the "Projects" menu + minor UI enhancements (Vincent Geddes) </li>
+        <li>Palette items can be locked down with CNTL-click matching glade-2 behaviour (bug 303679)</li>
       </ul>
       <p> </p>
       </td>
@@ -280,41 +224,25 @@ glade-2 behaviour (bug 303679)</li>
       <td><b>Aug&nbsp;11&nbsp;2006</b></td>
       <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
       <td><b>Glade 3.0 released !</b>
-      <p>Get it at <a
- href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">
-http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>. </p>
-      <p>NOTE - Glade 3.0 Requires GTK+ 2.8 and libxml2, Glade 3.0 will
-expose
-properties, signals and widgets from GTK+ 2.8, remember that you need
-an
-up to date version of GTK+ to support those widgets. </p>
-      <p>Here is an overview of the changes made since the last
-development snapshot: </p>
+      <p>Get it at <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/">http://ftp.gnome.org/pub/GNOME/sources/glade3/3.0/</a>. </p>
+      <p>NOTE - Glade 3.0 Requires GTK+ 2.8 and libxml2, Glade 3.0 will expose properties, signals and widgets from GTK+ 2.8, remember that you need an up to date version of GTK+ to support those widgets. </p>
+      <p>Here is an overview of the changes made since the last development snapshot: </p>
       <ul>
         <li>DevHelp integration for a contextual help system</li>
         <li>GnomeUI and GnomeCanvas plugin (Juan Pablo Ugarte)</li>
-        <li>New "Editor skeleton" provided by the core to ease the
-plugin's creation of custom editors for toolbars and menus and such.
-(Juan Pablo Ugarte)</li>
+        <li>New "Editor skeleton" provided by the core to ease the plugin's creation of custom editors for toolbars and menus and such. (Juan Pablo Ugarte)</li>
         <li>Toolbar and popup menu support (Juan Pablo Ugarte)</li>
         <li>Added accelerators property dialog</li>
-        <li>Drag/Resize support extended to GtkTable and GtkBox
-subclasses (and GnomeCanvas) from only GtkFixed and GtkLayout.</li>
-        <li>Reverted "View" menu to match the Glade 2 style (Yevgen
-Muntyan)</li>
-        <li>Now glade has 2 icon sets (16x16 &amp; 22x22), all icons
-available (Vincent Geddes)</li>
+        <li>Drag/Resize support extended to GtkTable and GtkBox subclasses (and GnomeCanvas) from only GtkFixed and GtkLayout.</li>
+        <li>Reverted "View" menu to match the Glade 2 style (Yevgen Muntyan)</li>
+        <li>Now glade has 2 icon sets (16x16 &amp; 22x22), all icons available (Vincent Geddes)</li>
         <li>New awesome palette (Vincent Geddes)</li>
         <li>Cute cursor when adding widgets (Vincent Geddes)</li>
-        <li>General UI enhancements and desktop integration work
-(Vincent Geddes)</li>
+        <li>General UI enhancements and desktop integration work (Vincent Geddes)</li>
         <li>Duplicated widgets id's are unique (Yevgen Muntyan)</li>
-        <li>Spelling mistake fixes from Thierry Moisan and Clytie
-Siddall</li>
-        <li>Many Many Many misc fixes by Juan Pablo Ugarte, Vincent
-Geddes, Yevgen Muntyan and myself.</li>
-        <li>Much core/gtk+ backend refactoring done by Juan Pablo and
-myself.</li>
+        <li>Spelling mistake fixes from Thierry Moisan and Clytie Siddall</li>
+        <li>Many Many Many misc fixes by Juan Pablo Ugarte, Vincent Geddes, Yevgen Muntyan and myself.</li>
+        <li>Much core/gtk+ backend refactoring done by Juan Pablo and myself.</li>
       </ul>
       </td>
     </tr>
