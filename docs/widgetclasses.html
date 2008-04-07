@@ -36,7 +36,7 @@ Adding support for custom widgets
 <td valign="top" align="right"></td>
 </tr></table></div>
 <div class="refsect1" lang="en">
-<a name="id326158"></a><h2>Forward</h2>
+<a name="id326160"></a><h2>Forward</h2>
 <p>
 Widget support in Glade is provided by the <a href="gladeui-GladeWidgetAdaptor.html#GladeWidgetAdaptor"><span class="type">GladeWidgetAdaptor</span></a> object, each
 `glade-widget-class' definition in the catalog will result in the creation
@@ -106,7 +106,7 @@ Here is the complete example of the form of the `glade-widget-class' definition:
     </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id326303"></a><h2>Widget Class Properties</h2>
+<a name="id326306"></a><h2>Widget Class Properties</h2>
 <p>
 The following are all properies of the `glade-widget-class' tag
     </p>
@@ -154,6 +154,15 @@ tree and will be translated before use in the interface.
           </p></td>
 </tr>
 <tr>
+<td><span class="term">parent</span></td>
+<td><p>
+Use this to specify the name of the parent your widget derives from, you
+can use this option instead of loading a real widget type (this allows you
+to fake derive and still add properties and run your catalog independantly
+of any plugins or libraries).
+          </p></td>
+</tr>
+<tr>
 <td><span class="term">toplevel</span></td>
 <td><p>
 Used to know whether this widget class is toplevel or not
@@ -193,7 +202,7 @@ This property will be inherited from the adaptors parent.
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id326544"></a><h2>Adapter Methods</h2>
+<a name="id326563"></a><h2>Adapter Methods</h2>
 <p>
 The following are all child tags of the `glade-widget-class' tag
     </p>
@@ -340,7 +349,7 @@ A <a href="gladeui-GladeWidgetAdaptor.html#GladeStringFromValueFunc"><span class
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327072"></a><h2>Action Definitions</h2>
+<a name="id327090"></a><h2>Action Definitions</h2>
 <p>
 Actions are added under the `actions' and `packing-actions' tags, actions can also
 be nested so as to allow grouping in context menus, example:
@@ -393,7 +402,7 @@ are added to the toolbar.
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327168"></a><h2>Packing Defaults</h2>
+<a name="id327187"></a><h2>Packing Defaults</h2>
 <p>
 Default values can be specified for packing properties on your widget when added
 to a said type of parent, as the example shows above; use the `parent-class' to 
@@ -403,7 +412,7 @@ specify the property name and the `default' property for the value.
     </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327182"></a><h2>Icons</h2>
+<a name="id327200"></a><h2>Icons</h2>
 <p>
 The Glade palette and other components use icons to represent the various widget classes. 
 It is a good idea to provide icons for your widget classes, as this

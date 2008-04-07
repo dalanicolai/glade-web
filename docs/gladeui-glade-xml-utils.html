@@ -25,16 +25,16 @@
 <th width="100%" align="center">Glade User Interface Designer Reference Manual</th>
 <td><a accesskey="n" href="dockables.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id422967" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id423002" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id424521" class="shortcut">Description</a></nobr></td></tr>
+                  <a href="#id424556" class="shortcut">Description</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="gladeui-glade-xml-utils"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id422967"></a><span class="refentrytitle">Xml Utils</span>
+<a name="id423002"></a><span class="refentrytitle">Xml Utils</span>
 </h2>
 <p>Xml Utils &#8212; An api to read and write xml.</p>
 </td>
@@ -133,25 +133,25 @@ gboolean            <a href="gladeui-glade-xml-utils.html#glade-xml-load-sym-fro
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id424521"></a><h2>Description</h2>
+<a name="id424556"></a><h2>Description</h2>
 <p>
 You may need these tools if you are implementing <a href="gladeui-GladeWidgetAdaptor.html#GladeReadWidgetFunc"><span class="type">GladeReadWidgetFunc</span></a>
 and/or <a href="gladeui-GladeWidgetAdaptor.html#GladeWriteWidgetFunc"><span class="type">GladeWriteWidgetFunc</span></a> on your <a href="gladeui-GladeWidgetAdaptor.html#GladeWidgetAdaptor"><span class="type">GladeWidgetAdaptor</span></a> to read
 and write widgets in custom ways</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id424560"></a><h2>Details</h2>
+<a name="id424595"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id424570"></a><h3>
+<a name="id424605"></a><h3>
 <a name="glade-xml-search-child"></a>glade_xml_search_child ()</h3>
-<a class="indexterm" name="id424583"></a><pre class="programlisting">GladeXmlNode*       glade_xml_search_child              (GladeXmlNode *node,
+<a class="indexterm" name="id424618"></a><pre class="programlisting">GladeXmlNode*       glade_xml_search_child              (GladeXmlNode *node,
                                                          const gchar *name);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id424616"></a><h3>
+<a name="id424651"></a><h3>
 <a name="glade-xml-search-child-required"></a>glade_xml_search_child_required ()</h3>
-<a class="indexterm" name="id424628"></a><pre class="programlisting">GladeXmlNode*       glade_xml_search_child_required     (GladeXmlNode *tree,
+<a class="indexterm" name="id424664"></a><pre class="programlisting">GladeXmlNode*       glade_xml_search_child_required     (GladeXmlNode *tree,
                                                          const gchar *name);</pre>
 <p>
 just a small wrapper arround glade_xml_search_child that displays
@@ -179,11 +179,11 @@ an error if the child was not found</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id424707"></a><h3>
+<a name="id424742"></a><h3>
 <a name="glade-xml-get-content"></a>glade_xml_get_content ()</h3>
-<a class="indexterm" name="id424720"></a><pre class="programlisting">gchar*              glade_xml_get_content               (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id424755"></a><pre class="programlisting">gchar*              glade_xml_get_content               (GladeXmlNode *node_in);</pre>
 <p>
-</p>
+Gets a string containing the content of <em class="parameter"><code>node_in</code></em>.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody>
@@ -194,9 +194,7 @@ an error if the child was not found</p>
 </tr>
 <tr>
 <td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td>a string containing the content of <em class="parameter"><code>node_in</code></em>.
-Note: It is the caller's responsibility to free the memory used by this 
-string.
+<td> A newly allocated string
 </td>
 </tr>
 </tbody>
@@ -204,9 +202,9 @@ string.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id424791"></a><h3>
+<a name="id424826"></a><h3>
 <a name="glade-xml-set-content"></a>glade_xml_set_content ()</h3>
-<a class="indexterm" name="id424803"></a><pre class="programlisting">void                glade_xml_set_content               (GladeXmlNode *node_in,
+<a class="indexterm" name="id424838"></a><pre class="programlisting">void                glade_xml_set_content               (GladeXmlNode *node_in,
                                                          const gchar *content);</pre>
 <p>
 Sets the content of <em class="parameter"><code>node</code></em> to <em class="parameter"><code>content</code></em>.</p>
@@ -228,9 +226,9 @@ Sets the content of <em class="parameter"><code>node</code></em> to <em class="p
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id424891"></a><h3>
+<a name="id424926"></a><h3>
 <a name="glade-xml-get-value-int"></a>glade_xml_get_value_int ()</h3>
-<a class="indexterm" name="id424903"></a><pre class="programlisting">gboolean            glade_xml_get_value_int             (GladeXmlNode *node_in,
+<a class="indexterm" name="id424938"></a><pre class="programlisting">gboolean            glade_xml_get_value_int             (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          int *val);</pre>
 <p>
@@ -264,9 +262,9 @@ the content of a child.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425037"></a><h3>
+<a name="id425072"></a><h3>
 <a name="glade-xml-get-value-int-required"></a>glade_xml_get_value_int_required ()</h3>
-<a class="indexterm" name="id425050"></a><pre class="programlisting">gboolean            glade_xml_get_value_int_required    (GladeXmlNode *node,
+<a class="indexterm" name="id425085"></a><pre class="programlisting">gboolean            glade_xml_get_value_int_required    (GladeXmlNode *node,
                                                          const gchar *name,
                                                          int *val);</pre>
 <p>
@@ -300,32 +298,32 @@ a <code class="function">g_warning()</code> if <em class="parameter"><code>node_
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425191"></a><h3>
+<a name="id425226"></a><h3>
 <a name="glade-xml-get-value-string"></a>glade_xml_get_value_string ()</h3>
-<a class="indexterm" name="id425204"></a><pre class="programlisting">gchar*              glade_xml_get_value_string          (GladeXmlNode *node,
+<a class="indexterm" name="id425239"></a><pre class="programlisting">gchar*              glade_xml_get_value_string          (GladeXmlNode *node,
                                                          const gchar *name);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425237"></a><h3>
+<a name="id425272"></a><h3>
 <a name="glade-xml-get-value-string-required"></a>glade_xml_get_value_string_required ()</h3>
-<a class="indexterm" name="id425250"></a><pre class="programlisting">gchar*              glade_xml_get_value_string_required (GladeXmlNode *node,
+<a class="indexterm" name="id425285"></a><pre class="programlisting">gchar*              glade_xml_get_value_string_required (GladeXmlNode *node,
                                                          const gchar *name,
                                                          const gchar *xtra_info);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425290"></a><h3>
+<a name="id425325"></a><h3>
 <a name="glade-xml-get-boolean"></a>glade_xml_get_boolean ()</h3>
-<a class="indexterm" name="id425303"></a><pre class="programlisting">gboolean            glade_xml_get_boolean               (GladeXmlNode *node,
+<a class="indexterm" name="id425338"></a><pre class="programlisting">gboolean            glade_xml_get_boolean               (GladeXmlNode *node,
                                                          const gchar *name,
                                                          gboolean _default);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425343"></a><h3>
+<a name="id425378"></a><h3>
 <a name="glade-xml-set-value"></a>glade_xml_set_value ()</h3>
-<a class="indexterm" name="id425355"></a><pre class="programlisting">void                glade_xml_set_value                 (GladeXmlNode *node_in,
+<a class="indexterm" name="id425390"></a><pre class="programlisting">void                glade_xml_set_value                 (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          const gchar *val);</pre>
 <p>
@@ -353,97 +351,97 @@ Sets the property <em class="parameter"><code>name</code></em> in <em class="par
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425468"></a><h3>
+<a name="id425503"></a><h3>
 <a name="glade-xml-get-property-string-required"></a>glade_xml_get_property_string_required ()</h3>
-<a class="indexterm" name="id425481"></a><pre class="programlisting">gchar*              glade_xml_get_property_string_required
+<a class="indexterm" name="id425516"></a><pre class="programlisting">gchar*              glade_xml_get_property_string_required
                                                         (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          const gchar *xtra);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425522"></a><h3>
+<a name="id425557"></a><h3>
 <a name="glade-xml-get-property-string"></a>glade_xml_get_property_string ()</h3>
-<a class="indexterm" name="id425534"></a><pre class="programlisting">gchar*              glade_xml_get_property_string       (GladeXmlNode *node_in,
+<a class="indexterm" name="id425569"></a><pre class="programlisting">gchar*              glade_xml_get_property_string       (GladeXmlNode *node_in,
                                                          const gchar *name);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425567"></a><h3>
+<a name="id425602"></a><h3>
 <a name="glade-xml-get-property-boolean"></a>glade_xml_get_property_boolean ()</h3>
-<a class="indexterm" name="id425580"></a><pre class="programlisting">gboolean            glade_xml_get_property_boolean      (GladeXmlNode *node_in,
+<a class="indexterm" name="id425615"></a><pre class="programlisting">gboolean            glade_xml_get_property_boolean      (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          gboolean _default);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425620"></a><h3>
+<a name="id425655"></a><h3>
 <a name="glade-xml-get-property-double"></a>glade_xml_get_property_double ()</h3>
-<a class="indexterm" name="id425633"></a><pre class="programlisting">gdouble             glade_xml_get_property_double       (GladeXmlNode *node_in,
+<a class="indexterm" name="id425668"></a><pre class="programlisting">gdouble             glade_xml_get_property_double       (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          gdouble _default);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425674"></a><h3>
+<a name="id425708"></a><h3>
 <a name="glade-xml-get-property-int"></a>glade_xml_get_property_int ()</h3>
-<a class="indexterm" name="id425686"></a><pre class="programlisting">gint                glade_xml_get_property_int          (GladeXmlNode *node_in,
+<a class="indexterm" name="id425721"></a><pre class="programlisting">gint                glade_xml_get_property_int          (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          gint _default);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425727"></a><h3>
+<a name="id425762"></a><h3>
 <a name="glade-xml-node-set-property-string"></a>glade_xml_node_set_property_string ()</h3>
-<a class="indexterm" name="id425740"></a><pre class="programlisting">void                glade_xml_node_set_property_string  (GladeXmlNode *node_in,
+<a class="indexterm" name="id425775"></a><pre class="programlisting">void                glade_xml_node_set_property_string  (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          const gchar *string);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425780"></a><h3>
+<a name="id425815"></a><h3>
 <a name="glade-xml-node-set-property-boolean"></a>glade_xml_node_set_property_boolean ()</h3>
-<a class="indexterm" name="id425792"></a><pre class="programlisting">void                glade_xml_node_set_property_boolean (GladeXmlNode *node_in,
+<a class="indexterm" name="id425827"></a><pre class="programlisting">void                glade_xml_node_set_property_boolean (GladeXmlNode *node_in,
                                                          const gchar *name,
                                                          gboolean value);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425833"></a><h3>
+<a name="id425868"></a><h3>
 <a name="glade-xml-node-new"></a>glade_xml_node_new ()</h3>
-<a class="indexterm" name="id425845"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_new                  (GladeXmlContext *context,
+<a class="indexterm" name="id425880"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_new                  (GladeXmlContext *context,
                                                          const gchar *name);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425878"></a><h3>
+<a name="id425913"></a><h3>
 <a name="glade-xml-node-new-comment"></a>glade_xml_node_new_comment ()</h3>
-<a class="indexterm" name="id425891"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_new_comment          (GladeXmlContext *context,
+<a class="indexterm" name="id425926"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_new_comment          (GladeXmlContext *context,
                                                          const gchar *comment);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425924"></a><h3>
+<a name="id425959"></a><h3>
 <a name="glade-xml-node-delete"></a>glade_xml_node_delete ()</h3>
-<a class="indexterm" name="id425936"></a><pre class="programlisting">void                glade_xml_node_delete               (GladeXmlNode *node);</pre>
+<a class="indexterm" name="id425971"></a><pre class="programlisting">void                glade_xml_node_delete               (GladeXmlNode *node);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id425961"></a><h3>
+<a name="id425996"></a><h3>
 <a name="glade-xml-node-get-children"></a>glade_xml_node_get_children ()</h3>
-<a class="indexterm" name="id425974"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_get_children         (GladeXmlNode *node);</pre>
+<a class="indexterm" name="id426009"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_get_children         (GladeXmlNode *node);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426000"></a><h3>
+<a name="id426035"></a><h3>
 <a name="glade-xml-node-next"></a>glade_xml_node_next ()</h3>
-<a class="indexterm" name="id426012"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_next                 (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id426047"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_next                 (GladeXmlNode *node_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426037"></a><h3>
+<a name="id426072"></a><h3>
 <a name="glade-xml-node-verify"></a>glade_xml_node_verify ()</h3>
-<a class="indexterm" name="id426050"></a><pre class="programlisting">gboolean            glade_xml_node_verify               (GladeXmlNode *node_in,
+<a class="indexterm" name="id426085"></a><pre class="programlisting">gboolean            glade_xml_node_verify               (GladeXmlNode *node_in,
                                                          const gchar *name);</pre>
 <p>
 This is a wrapper around <a href="gladeui-glade-xml-utils.html#glade-xml-node-verify-silent"><code class="function">glade_xml_node_verify_silent()</code></a>, only it emits
@@ -471,9 +469,9 @@ a <code class="function">g_warning()</code> if <em class="parameter"><code>node_
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426201"></a><h3>
+<a name="id426236"></a><h3>
 <a name="glade-xml-node-verify-silent"></a>glade_xml_node_verify_silent ()</h3>
-<a class="indexterm" name="id426214"></a><pre class="programlisting">gboolean            glade_xml_node_verify_silent        (GladeXmlNode *node_in,
+<a class="indexterm" name="id426249"></a><pre class="programlisting">gboolean            glade_xml_node_verify_silent        (GladeXmlNode *node_in,
                                                          const gchar *name);</pre>
 <p>
 </p>
@@ -500,47 +498,47 @@ a <code class="function">g_warning()</code> if <em class="parameter"><code>node_
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426332"></a><h3>
+<a name="id426367"></a><h3>
 <a name="glade-xml-node-get-name"></a>glade_xml_node_get_name ()</h3>
-<a class="indexterm" name="id426344"></a><pre class="programlisting">const gchar*        glade_xml_node_get_name             (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id426379"></a><pre class="programlisting">const gchar*        glade_xml_node_get_name             (GladeXmlNode *node_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426371"></a><h3>
+<a name="id426406"></a><h3>
 <a name="glade-xml-node-append-child"></a>glade_xml_node_append_child ()</h3>
-<a class="indexterm" name="id426384"></a><pre class="programlisting">void                glade_xml_node_append_child         (GladeXmlNode *node,
+<a class="indexterm" name="id426419"></a><pre class="programlisting">void                glade_xml_node_append_child         (GladeXmlNode *node,
                                                          GladeXmlNode *child);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426417"></a><h3>
+<a name="id426452"></a><h3>
 <a name="glade-xml-node-remove"></a>glade_xml_node_remove ()</h3>
-<a class="indexterm" name="id426429"></a><pre class="programlisting">void                glade_xml_node_remove               (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id426464"></a><pre class="programlisting">void                glade_xml_node_remove               (GladeXmlNode *node_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426455"></a><h3>
+<a name="id426490"></a><h3>
 <a name="glade-xml-node-is-comment"></a>glade_xml_node_is_comment ()</h3>
-<a class="indexterm" name="id426467"></a><pre class="programlisting">gboolean            glade_xml_node_is_comment           (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id426502"></a><pre class="programlisting">gboolean            glade_xml_node_is_comment           (GladeXmlNode *node_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426493"></a><h3>
+<a name="id426528"></a><h3>
 <a name="glade-xml-node-next-with-comments"></a>glade_xml_node_next_with_comments ()</h3>
-<a class="indexterm" name="id426506"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_next_with_comments   (GladeXmlNode *node_in);</pre>
+<a class="indexterm" name="id426540"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_next_with_comments   (GladeXmlNode *node_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426531"></a><h3>
+<a name="id426566"></a><h3>
 <a name="glade-xml-node-get-children-with-comments"></a>glade_xml_node_get_children_with_comments ()</h3>
-<a class="indexterm" name="id426544"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_get_children_with_comments
+<a class="indexterm" name="id426579"></a><pre class="programlisting">GladeXmlNode*       glade_xml_node_get_children_with_comments
                                                         (GladeXmlNode *node);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426570"></a><h3>
+<a name="id426605"></a><h3>
 <a name="glade-xml-doc-get-root"></a>glade_xml_doc_get_root ()</h3>
-<a class="indexterm" name="id426583"></a><pre class="programlisting">GladeXmlNode*       glade_xml_doc_get_root              (GladeXmlDoc *doc);</pre>
+<a class="indexterm" name="id426618"></a><pre class="programlisting">GladeXmlNode*       glade_xml_doc_get_root              (GladeXmlDoc *doc);</pre>
 <p>
 </p>
 <div class="variablelist"><table border="0">
@@ -561,48 +559,48 @@ a <code class="function">g_warning()</code> if <em class="parameter"><code>node_
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426661"></a><h3>
+<a name="id426696"></a><h3>
 <a name="glade-xml-doc-new"></a>glade_xml_doc_new ()</h3>
-<a class="indexterm" name="id426674"></a><pre class="programlisting">GladeXmlDoc*        glade_xml_doc_new                   (void);</pre>
+<a class="indexterm" name="id426709"></a><pre class="programlisting">GladeXmlDoc*        glade_xml_doc_new                   (void);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426692"></a><h3>
+<a name="id426727"></a><h3>
 <a name="glade-xml-doc-set-root"></a>glade_xml_doc_set_root ()</h3>
-<a class="indexterm" name="id426704"></a><pre class="programlisting">void                glade_xml_doc_set_root              (GladeXmlDoc *doc,
+<a class="indexterm" name="id426739"></a><pre class="programlisting">void                glade_xml_doc_set_root              (GladeXmlDoc *doc,
                                                          GladeXmlNode *node);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426737"></a><h3>
+<a name="id426772"></a><h3>
 <a name="glade-xml-doc-free"></a>glade_xml_doc_free ()</h3>
-<a class="indexterm" name="id426750"></a><pre class="programlisting">void                glade_xml_doc_free                  (GladeXmlDoc *doc_in);</pre>
+<a class="indexterm" name="id426784"></a><pre class="programlisting">void                glade_xml_doc_free                  (GladeXmlDoc *doc_in);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426775"></a><h3>
+<a name="id426810"></a><h3>
 <a name="glade-xml-doc-save"></a>glade_xml_doc_save ()</h3>
-<a class="indexterm" name="id426787"></a><pre class="programlisting">gint                glade_xml_doc_save                  (GladeXmlDoc *doc_in,
+<a class="indexterm" name="id426822"></a><pre class="programlisting">gint                glade_xml_doc_save                  (GladeXmlDoc *doc_in,
                                                          const gchar *full_path);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426820"></a><h3>
+<a name="id426855"></a><h3>
 <a name="glade-xml-context-new"></a>glade_xml_context_new ()</h3>
-<a class="indexterm" name="id426833"></a><pre class="programlisting">GladeXmlContext*    glade_xml_context_new               (GladeXmlDoc *doc,
+<a class="indexterm" name="id426868"></a><pre class="programlisting">GladeXmlContext*    glade_xml_context_new               (GladeXmlDoc *doc,
                                                          const gchar *name_space);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426866"></a><h3>
+<a name="id426900"></a><h3>
 <a name="glade-xml-context-destroy"></a>glade_xml_context_destroy ()</h3>
-<a class="indexterm" name="id426878"></a><pre class="programlisting">void                glade_xml_context_destroy           (GladeXmlContext *context);</pre>
+<a class="indexterm" name="id426913"></a><pre class="programlisting">void                glade_xml_context_destroy           (GladeXmlContext *context);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426904"></a><h3>
+<a name="id426939"></a><h3>
 <a name="glade-xml-context-free"></a>glade_xml_context_free ()</h3>
-<a class="indexterm" name="id426917"></a><pre class="programlisting">void                glade_xml_context_free              (GladeXmlContext *context);</pre>
+<a class="indexterm" name="id426952"></a><pre class="programlisting">void                glade_xml_context_free              (GladeXmlContext *context);</pre>
 <p>
 Similar to glade_xml_context_destroy but it also frees the document set in the context</p>
 <div class="variablelist"><table border="0">
@@ -616,32 +614,32 @@ Similar to glade_xml_context_destroy but it also frees the document set in the c
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id426964"></a><h3>
+<a name="id426999"></a><h3>
 <a name="glade-xml-context-new-from-path"></a>glade_xml_context_new_from_path ()</h3>
-<a class="indexterm" name="id426977"></a><pre class="programlisting">GladeXmlContext*    glade_xml_context_new_from_path     (const gchar *full_path,
+<a class="indexterm" name="id427012"></a><pre class="programlisting">GladeXmlContext*    glade_xml_context_new_from_path     (const gchar *full_path,
                                                          const gchar *nspace,
                                                          const gchar *root_name);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id427017"></a><h3>
+<a name="id427052"></a><h3>
 <a name="glade-xml-context-get-doc"></a>glade_xml_context_get_doc ()</h3>
-<a class="indexterm" name="id427030"></a><pre class="programlisting">GladeXmlDoc*        glade_xml_context_get_doc           (GladeXmlContext *context);</pre>
+<a class="indexterm" name="id427065"></a><pre class="programlisting">GladeXmlDoc*        glade_xml_context_get_doc           (GladeXmlContext *context);</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id427056"></a><h3>
+<a name="id427090"></a><h3>
 <a name="glade-xml-load-sym-from-node"></a>glade_xml_load_sym_from_node ()</h3>
-<a class="indexterm" name="id427068"></a><pre class="programlisting">gboolean            glade_xml_load_sym_from_node        (GladeXmlNode *node_in,
+<a class="indexterm" name="id427103"></a><pre class="programlisting">gboolean            glade_xml_load_sym_from_node        (GladeXmlNode *node_in,
                                                          GModule *module,
                                                          gchar *tagname,
                                                          gpointer *sym_location);</pre>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id427116"></a><div class="refsect2" lang="en"><a name="id427118"></a></div>
+<a name="id427151"></a><div class="refsect2" lang="en"><a name="id427152"></a></div>
 <hr>
-<div class="refsect2" lang="en"><a name="id427119"></a></div>
+<div class="refsect2" lang="en"><a name="id427154"></a></div>
 </div>
 </div>
 </body>
