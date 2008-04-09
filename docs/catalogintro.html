@@ -102,44 +102,59 @@ you can also use 'icon-prefix', 'depends' and 'domain'.
 <tr>
 <td><span class="term">name</span></td>
 <td><p>
-The 'name' property is simply a string identifier for the catalog in 
-question, it will be used to identify your catalog so that the glade file can explicitly
-require it and to manage inter catalog dependencies.
+A string identifier for the catalog in question, it will be used to identify your 
+catalog so that the glade file can explicitly require it and to manage inter 
+catalog dependencies.
+          </p></td>
+</tr>
+<tr>
+<td><span class="term">version</span></td>
+<td><p>
+A 'major.minor' formed version describing the current version of underlying widget kit;
+example: <code class="literal">version="1.0"</code>. This is needed for version checking to work. 
+Please note that all versioning related support is completely optional.
+          </p></td>
+</tr>
+<tr>
+<td><span class="term">targetable</span></td>
+<td><p>
+A comma separated list of 'major.minor' formed versions describing sensable previous
+targetable versions of the underlying toolkit not including the current version; 
+example: <code class="literal">targetable="0.6,0.8"</code>.
           </p></td>
 </tr>
 <tr>
 <td><span class="term">icon-prefix</span></td>
 <td><p>
-The 'icon-prefix' attribute is used to form icon names for widgets. This property defaults
-to the value of the 'name' attribute.
+Used to form icon names for widgets. This property defaults to the value of the 'name' attribute.
           </p></td>
 </tr>
 <tr>
 <td><span class="term">library</span></td>
 <td><p>
-The 'library' property is used to load the types and introspect properties, unless
-you are faking your widget classes (which will be described later on), glade will
-need to load this library, it can either be the name of the library containing the 
-widgets or the plugin library which is assumed to implicitly link to your widget
-library. The library will be loaded either by a user specified path, the system
-plugin directory: <code class="literal">$prefix/lib/glade-3/modules/</code>, or from
-the default system library paths in the afore mentioned order of precedence.
+Used to load the types and introspect properties, unless you are faking your widget 
+classes (which will be described later on), glade will need to load this library, 
+it can either be the name of the library containing the widgets or the plugin library
+which is assumed to implicitly link to your widget library. The library will be loaded
+either by a user specified path, the system plugin directory: 
+<code class="literal">$prefix/lib/glade-3/modules/</code>, or from the default system library 
+paths in the afore mentioned order of precedence.
           </p></td>
 </tr>
 <tr>
 <td><span class="term">depends</span></td>
 <td><p>
-The 'depends' property is used for inheritance of support code to work 
-properly  (i.e. if your object derives from an object in gtk+, you'll want the default 
-support code in the gladegtk plugin to be enabled for your widget too). This property's 
-value is the `name' property of another installed glade plugin; usually you'll want to
-declare: 'depends="gtk+"' for your plugin.
+Used for inheritance of support code to work properly  (i.e. if your object derives 
+from an object in gtk+, you'll want the default support code in the gladegtk plugin 
+to be enabled for your widget too). This property's value is the `name' property of 
+another installed glade plugin; usually you'll want to declare: 'depends="gtk+"'
+for your plugin.
           </p></td>
 </tr>
 <tr>
 <td><span class="term">domain</span></td>
 <td><p>
-The 'domain' property is the domain in which to search for translatable strings from the 
+The domain in which to search for translatable strings from the 
 catalog file; please note that all strings from the catalog that will apear in the UI are
 translated using this domain. If the 'domain' is not specified, the library property will
 be used in it's stead.
@@ -148,14 +163,14 @@ be used in it's stead.
 <tr>
 <td><span class="term">book</span></td>
 <td><p>
-The 'book' property is used to specify a namespace to search devhelp docs library with
+Used to specify a namespace to search devhelp docs library with
 (specificly, it is the $(DOC_MODULE) that you specified in your gtk-doc Makefile.am).
           </p></td>
 </tr>
 <tr>
 <td><span class="term">init-function</span></td>
 <td><p>
-The 'init-function' tag is used to retrieve an optional global entry point to your plugin; 
+Used to retrieve an optional global entry point to your plugin; 
 if you need to initialize any backends or whatnot this is a good place. 
 Your catalog's init-function will be called before any widget classes are instantiated.
           </p></td>
@@ -164,7 +179,7 @@ Your catalog's init-function will be called before any widget classes are instan
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id325775"></a><h2>Validating and installing</h2>
+<a name="id325814"></a><h2>Validating and installing</h2>
 <p>
 The DTD that is shipped with Glade can be used to validate your catalog
 file. Note that properties must be entered in the same order as they are

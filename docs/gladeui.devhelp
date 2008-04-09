@@ -90,8 +90,8 @@
     <function name="The &quot;active-project&quot; property" link="GladeApp.html#GladeApp--active-project"/>
     <function name="The &quot;pointer-mode&quot; property" link="GladeApp.html#GladeApp--pointer-mode"/>
     <function name="The &quot;update-ui&quot; signal" link="GladeApp.html#GladeApp-update-ui"/>
-    <function name="" link="GladeApp.html#id332285"/>
-    <function name="" link="GladeApp.html#id332286"/>
+    <function name="" link="GladeApp.html#id332586"/>
+    <function name="" link="GladeApp.html#id332587"/>
     <function name="struct GladeProject" link="GladeProject.html#GladeProject-struct"/>
     <function name="enum GladeProjectFormat" link="GladeProject.html#GladeProjectFormat"/>
     <function name="glade_project_new ()" link="GladeProject.html#glade-project-new"/>
@@ -148,8 +148,8 @@
     <function name="The &quot;resource-removed&quot; signal" link="GladeProject.html#GladeProject-resource-removed"/>
     <function name="The &quot;selection-changed&quot; signal" link="GladeProject.html#GladeProject-selection-changed"/>
     <function name="The &quot;widget-name-changed&quot; signal" link="GladeProject.html#GladeProject-widget-name-changed"/>
-    <function name="" link="GladeProject.html#id341571"/>
-    <function name="" link="GladeProject.html#id341572"/>
+    <function name="" link="GladeProject.html#id341871"/>
+    <function name="" link="GladeProject.html#id341872"/>
     <function name="struct GladeWidget" link="GladeWidget.html#GladeWidget-struct"/>
     <function name="glade_widget_get_from_gobject ()" link="GladeWidget.html#glade-widget-get-from-gobject"/>
     <function name="glade_widget_add_child ()" link="GladeWidget.html#glade-widget-add-child"/>
@@ -245,8 +245,8 @@
     <function name="The &quot;change-signal-handler&quot; signal" link="GladeWidget.html#GladeWidget-change-signal-handler"/>
     <function name="The &quot;motion-notify-event&quot; signal" link="GladeWidget.html#GladeWidget-motion-notify-event"/>
     <function name="The &quot;remove-signal-handler&quot; signal" link="GladeWidget.html#GladeWidget-remove-signal-handler"/>
-    <function name="" link="GladeWidget.html#id360178"/>
-    <function name="" link="GladeWidget.html#id360179"/>
+    <function name="" link="GladeWidget.html#id360478"/>
+    <function name="" link="GladeWidget.html#id360480"/>
     <function name="GladeFixed" link="GladeFixed.html#GladeFixed-struct"/>
     <function name="The &quot;can-resize&quot; property" link="GladeFixed.html#GladeFixed--can-resize"/>
     <function name="The &quot;height-prop&quot; property" link="GladeFixed.html#GladeFixed--height-prop"/>
@@ -256,8 +256,8 @@
     <function name="The &quot;configure-begin&quot; signal" link="GladeFixed.html#GladeFixed-configure-begin"/>
     <function name="The &quot;configure-child&quot; signal" link="GladeFixed.html#GladeFixed-configure-child"/>
     <function name="The &quot;configure-end&quot; signal" link="GladeFixed.html#GladeFixed-configure-end"/>
-    <function name="" link="GladeFixed.html#id373152"/>
-    <function name="" link="GladeFixed.html#id373153"/>
+    <function name="" link="GladeFixed.html#id373452"/>
+    <function name="" link="GladeFixed.html#id373453"/>
     <function name="struct GladeProperty" link="gladeui-glade-property.html#GladeProperty-struct"/>
     <function name="glade_property_new ()" link="gladeui-glade-property.html#glade-property-new"/>
     <function name="glade_property_dup ()" link="gladeui-glade-property.html#glade-property-dup"/>
@@ -303,8 +303,8 @@
     <function name="The &quot;sensitive&quot; property" link="gladeui-glade-property.html#GladeProperty--sensitive"/>
     <function name="The &quot;tooltip-changed&quot; signal" link="gladeui-glade-property.html#GladeProperty-tooltip-changed"/>
     <function name="The &quot;value-changed&quot; signal" link="gladeui-glade-property.html#GladeProperty-value-changed"/>
-    <function name="" link="gladeui-glade-property.html#id378680"/>
-    <function name="" link="gladeui-glade-property.html#id378682"/>
+    <function name="" link="gladeui-glade-property.html#id378981"/>
+    <function name="" link="gladeui-glade-property.html#id378982"/>
     <function name="enum GladeCreateReason" link="gladeui-GladeWidgetAdaptor.html#GladeCreateReason"/>
     <function name="GWA_IS_FIXED()" link="gladeui-GladeWidgetAdaptor.html#GWA-IS-FIXED:CAPS"/>
     <function name="GWA_IS_TOPLEVEL()" link="gladeui-GladeWidgetAdaptor.html#GWA-IS-TOPLEVEL:CAPS"/>
@@ -375,8 +375,8 @@
     <function name="glade_widget_adaptor_action_activate ()" link="gladeui-GladeWidgetAdaptor.html#glade-widget-adaptor-action-activate"/>
     <function name="glade_widget_adaptor_child_action_activate ()" link="gladeui-GladeWidgetAdaptor.html#glade-widget-adaptor-child-action-activate"/>
     <function name="glade_widget_adaptor_string_from_value ()" link="gladeui-GladeWidgetAdaptor.html#glade-widget-adaptor-string-from-value"/>
-    <function name="" link="gladeui-GladeWidgetAdaptor.html#id394030"/>
-    <function name="" link="gladeui-GladeWidgetAdaptor.html#id394031"/>
+    <function name="" link="gladeui-GladeWidgetAdaptor.html#id394323"/>
+    <function name="" link="gladeui-GladeWidgetAdaptor.html#id394324"/>
     <function name="GPC_OBJECT_DELIMITER" link="gladeui-GladePropertyClass.html#GPC-OBJECT-DELIMITER:CAPS"/>
     <function name="GPC_PROPERTY_NAMELEN" link="gladeui-GladePropertyClass.html#GPC-PROPERTY-NAMELEN:CAPS"/>
     <function name="GladePropertyClass" link="gladeui-GladePropertyClass.html#GladePropertyClass"/>
@@ -397,8 +397,8 @@
     <function name="glade_property_class_make_adjustment ()" link="gladeui-GladePropertyClass.html#glade-property-class-make-adjustment"/>
     <function name="glade_property_class_match ()" link="gladeui-GladePropertyClass.html#glade-property-class-match"/>
     <function name="glade_property_class_void_value ()" link="gladeui-GladePropertyClass.html#glade-property-class-void-value"/>
-    <function name="" link="gladeui-GladePropertyClass.html#id407184"/>
-    <function name="" link="gladeui-GladePropertyClass.html#id407185"/>
+    <function name="" link="gladeui-GladePropertyClass.html#id407484"/>
+    <function name="" link="gladeui-GladePropertyClass.html#id407485"/>
     <function name="GWActionClass" link="GladeWidgetAction.html#GWActionClass"/>
     <function name="GladeWidgetAction" link="GladeWidgetAction.html#GladeWidgetAction-struct"/>
     <function name="glade_widget_action_class_free ()" link="GladeWidgetAction.html#glade-widget-action-class-free"/>
@@ -407,8 +407,8 @@
     <function name="glade_widget_action_set_sensitive ()" link="GladeWidgetAction.html#glade-widget-action-set-sensitive"/>
     <function name="The &quot;class&quot; property" link="GladeWidgetAction.html#GladeWidgetAction--class"/>
     <function name="The &quot;sensitive&quot; property" link="GladeWidgetAction.html#GladeWidgetAction--sensitive"/>
-    <function name="" link="GladeWidgetAction.html#id410471"/>
-    <function name="" link="GladeWidgetAction.html#id410472"/>
+    <function name="" link="GladeWidgetAction.html#id410773"/>
+    <function name="" link="GladeWidgetAction.html#id410774"/>
     <function name="GCSetPropData" link="GladeCommand.html#GCSetPropData"/>
     <function name="GladeCommand" link="GladeCommand.html#GladeCommand-struct"/>
     <function name="glade_command_push_group ()" link="GladeCommand.html#glade-command-push-group"/>
@@ -432,8 +432,8 @@
     <function name="glade_command_remove_signal ()" link="GladeCommand.html#glade-command-remove-signal"/>
     <function name="glade_command_change_signal ()" link="GladeCommand.html#glade-command-change-signal"/>
     <function name="glade_command_set_i18n ()" link="GladeCommand.html#glade-command-set-i18n"/>
-    <function name="" link="GladeCommand.html#id413998"/>
-    <function name="" link="GladeCommand.html#id413999"/>
+    <function name="" link="GladeCommand.html#id414300"/>
+    <function name="" link="GladeCommand.html#id414301"/>
     <function name="GladeClipboard" link="GladeClipboard.html#GladeClipboard-struct"/>
     <function name="glade_clipboard_new ()" link="GladeClipboard.html#glade-clipboard-new"/>
     <function name="glade_clipboard_add ()" link="GladeClipboard.html#glade-clipboard-add"/>
@@ -443,8 +443,8 @@
     <function name="glade_clipboard_selection_clear ()" link="GladeClipboard.html#glade-clipboard-selection-clear"/>
     <function name="glade_clipboard_get_has_selection ()" link="GladeClipboard.html#glade-clipboard-get-has-selection"/>
     <function name="The &quot;has-selection&quot; property" link="GladeClipboard.html#GladeClipboard--has-selection"/>
-    <function name="" link="GladeClipboard.html#id417597"/>
-    <function name="" link="GladeClipboard.html#id417598"/>
+    <function name="" link="GladeClipboard.html#id417899"/>
+    <function name="" link="GladeClipboard.html#id417900"/>
     <function name="GladeBaseEditor" link="GladeBaseEditor.html#GladeBaseEditor-struct"/>
     <function name="glade_base_editor_new ()" link="GladeBaseEditor.html#glade-base-editor-new"/>
     <function name="glade_base_editor_add_default_properties ()" link="GladeBaseEditor.html#glade-base-editor-add-default-properties"/>
@@ -459,13 +459,13 @@
     <function name="The &quot;delete-child&quot; signal" link="GladeBaseEditor.html#GladeBaseEditor-delete-child"/>
     <function name="The &quot;get-display-name&quot; signal" link="GladeBaseEditor.html#GladeBaseEditor-get-display-name"/>
     <function name="The &quot;move-child&quot; signal" link="GladeBaseEditor.html#GladeBaseEditor-move-child"/>
-    <function name="" link="GladeBaseEditor.html#id420584"/>
-    <function name="" link="GladeBaseEditor.html#id420586"/>
+    <function name="" link="GladeBaseEditor.html#id420886"/>
+    <function name="" link="GladeBaseEditor.html#id420888"/>
     <function name="GladePlaceholder" link="GladePlaceholder.html#GladePlaceholder-struct"/>
     <function name="glade_placeholder_new ()" link="GladePlaceholder.html#glade-placeholder-new"/>
     <function name="glade_placeholder_get_parent ()" link="GladePlaceholder.html#glade-placeholder-get-parent"/>
-    <function name="" link="GladePlaceholder.html#id422942"/>
-    <function name="" link="GladePlaceholder.html#id422943"/>
+    <function name="" link="GladePlaceholder.html#id423244"/>
+    <function name="" link="GladePlaceholder.html#id423245"/>
     <function name="glade_xml_search_child ()" link="gladeui-glade-xml-utils.html#glade-xml-search-child"/>
     <function name="glade_xml_search_child_required ()" link="gladeui-glade-xml-utils.html#glade-xml-search-child-required"/>
     <function name="glade_xml_get_content ()" link="gladeui-glade-xml-utils.html#glade-xml-get-content"/>
@@ -507,8 +507,8 @@
     <function name="glade_xml_context_new_from_path ()" link="gladeui-glade-xml-utils.html#glade-xml-context-new-from-path"/>
     <function name="glade_xml_context_get_doc ()" link="gladeui-glade-xml-utils.html#glade-xml-context-get-doc"/>
     <function name="glade_xml_load_sym_from_node ()" link="gladeui-glade-xml-utils.html#glade-xml-load-sym-from-node"/>
-    <function name="" link="gladeui-glade-xml-utils.html#id427152"/>
-    <function name="" link="gladeui-glade-xml-utils.html#id427154"/>
+    <function name="" link="gladeui-glade-xml-utils.html#id427454"/>
+    <function name="" link="gladeui-glade-xml-utils.html#id427455"/>
     <function name="GLADE_EDITOR_TABLE()" link="GladeEditor.html#GLADE-EDITOR-TABLE:CAPS"/>
     <function name="GLADE_IS_EDITOR_TABLE()" link="GladeEditor.html#GLADE-IS-EDITOR-TABLE:CAPS"/>
     <function name="GladeEditorTable" link="GladeEditor.html#GladeEditorTable"/>
@@ -526,8 +526,8 @@
     <function name="The &quot;show-context-info&quot; property" link="GladeEditor.html#GladeEditor--show-context-info"/>
     <function name="The &quot;show-info&quot; property" link="GladeEditor.html#GladeEditor--show-info"/>
     <function name="The &quot;gtk-doc-search&quot; signal" link="GladeEditor.html#GladeEditor-gtk-doc-search"/>
-    <function name="" link="GladeEditor.html#id432188"/>
-    <function name="" link="GladeEditor.html#id432190"/>
+    <function name="" link="GladeEditor.html#id432490"/>
+    <function name="" link="GladeEditor.html#id432491"/>
     <function name="GladeEditorProperty" link="GladeEditorProperty.html#GladeEditorProperty-struct"/>
     <function name="GLADE_MAKE_EPROP_TYPE()" link="GladeEditorProperty.html#GLADE-MAKE-EPROP-TYPE:CAPS"/>
     <function name="glade_editor_property_load ()" link="GladeEditorProperty.html#glade-editor-property-load"/>
@@ -539,8 +539,8 @@
     <function name="The &quot;show-info&quot; property" link="GladeEditorProperty.html#GladeEditorProperty--show-info"/>
     <function name="The &quot;use-command&quot; property" link="GladeEditorProperty.html#GladeEditorProperty--use-command"/>
     <function name="The &quot;gtk-doc-search&quot; signal" link="GladeEditorProperty.html#GladeEditorProperty-gtk-doc-search"/>
-    <function name="" link="GladeEditorProperty.html#id434906"/>
-    <function name="" link="GladeEditorProperty.html#id434907"/>
+    <function name="" link="GladeEditorProperty.html#id435208"/>
+    <function name="" link="GladeEditorProperty.html#id435209"/>
     <function name="GladePalette" link="GladePalette.html#GladePalette-struct"/>
     <function name="enum GladeItemAppearance" link="GladePalette.html#GladeItemAppearance"/>
     <function name="glade_palette_new ()" link="GladePalette.html#glade-palette-new"/>
@@ -558,15 +558,15 @@
     <function name="The &quot;show-selector-button&quot; property" link="GladePalette.html#GladePalette--show-selector-button"/>
     <function name="The &quot;use-small-item-icons&quot; property" link="GladePalette.html#GladePalette--use-small-item-icons"/>
     <function name="The &quot;toggled&quot; signal" link="GladePalette.html#GladePalette-toggled"/>
-    <function name="" link="GladePalette.html#id437817"/>
-    <function name="" link="GladePalette.html#id437818"/>
+    <function name="" link="GladePalette.html#id438119"/>
+    <function name="" link="GladePalette.html#id438120"/>
     <function name="GladeClipboardView" link="GladeClipboardView.html#GladeClipboardView-struct"/>
     <function name="glade_clipboard_view_new ()" link="GladeClipboardView.html#glade-clipboard-view-new"/>
     <function name="glade_clipboard_view_add ()" link="GladeClipboardView.html#glade-clipboard-view-add"/>
     <function name="glade_clipboard_view_remove ()" link="GladeClipboardView.html#glade-clipboard-view-remove"/>
     <function name="glade_clipboard_view_refresh_sel ()" link="GladeClipboardView.html#glade-clipboard-view-refresh-sel"/>
-    <function name="" link="GladeClipboardView.html#id440067"/>
-    <function name="" link="GladeClipboardView.html#id440068"/>
+    <function name="" link="GladeClipboardView.html#id440369"/>
+    <function name="" link="GladeClipboardView.html#id440370"/>
     <function name="GladeInspector" link="GladeInspector.html#GladeInspector-struct"/>
     <function name="glade_inspector_new ()" link="GladeInspector.html#glade-inspector-new"/>
     <function name="glade_inspector_new_with_project ()" link="GladeInspector.html#glade-inspector-new-with-project"/>
@@ -576,22 +576,22 @@
     <function name="The &quot;project&quot; property" link="GladeInspector.html#GladeInspector--project"/>
     <function name="The &quot;item-activated&quot; signal" link="GladeInspector.html#GladeInspector-item-activated"/>
     <function name="The &quot;selection-changed&quot; signal" link="GladeInspector.html#GladeInspector-selection-changed"/>
-    <function name="" link="GladeInspector.html#id441855"/>
-    <function name="" link="GladeInspector.html#id441856"/>
+    <function name="" link="GladeInspector.html#id442157"/>
+    <function name="" link="GladeInspector.html#id442158"/>
     <function name="GladeSignalEditor" link="gladeui-glade-signal-editor.html#GladeSignalEditor"/>
     <function name="glade_signal_editor_get_widget ()" link="gladeui-glade-signal-editor.html#glade-signal-editor-get-widget"/>
     <function name="glade_signal_editor_new ()" link="gladeui-glade-signal-editor.html#glade-signal-editor-new"/>
     <function name="glade_signal_editor_load_widget ()" link="gladeui-glade-signal-editor.html#glade-signal-editor-load-widget"/>
-    <function name="" link="gladeui-glade-signal-editor.html#id443449"/>
-    <function name="" link="gladeui-glade-signal-editor.html#id443450"/>
+    <function name="" link="gladeui-glade-signal-editor.html#id443751"/>
+    <function name="" link="gladeui-glade-signal-editor.html#id443752"/>
     <function name="GladeDesignView" link="GladeDesignView.html#GladeDesignView-struct"/>
     <function name="glade_design_view_new ()" link="GladeDesignView.html#glade-design-view-new"/>
     <function name="glade_design_view_get_project ()" link="GladeDesignView.html#glade-design-view-get-project"/>
     <function name="glade_design_view_get_from_project ()" link="GladeDesignView.html#glade-design-view-get-from-project"/>
     <function name="glade_design_view_get_layout ()" link="GladeDesignView.html#glade-design-view-get-layout"/>
     <function name="The &quot;project&quot; property" link="GladeDesignView.html#GladeDesignView--project"/>
-    <function name="" link="GladeDesignView.html#id444482"/>
-    <function name="" link="GladeDesignView.html#id444483"/>
+    <function name="" link="GladeDesignView.html#id444784"/>
+    <function name="" link="GladeDesignView.html#id444785"/>
     <function name="GladeParameter" link="gladeui-glade-parameter.html#GladeParameter"/>
     <function name="glade_parameter_new ()" link="gladeui-glade-parameter.html#glade-parameter-new"/>
     <function name="glade_parameter_clone ()" link="gladeui-glade-parameter.html#glade-parameter-clone"/>
@@ -601,8 +601,8 @@
     <function name="glade_parameter_get_boolean ()" link="gladeui-glade-parameter.html#glade-parameter-get-boolean"/>
     <function name="glade_parameter_get_string ()" link="gladeui-glade-parameter.html#glade-parameter-get-string"/>
     <function name="glade_parameter_list_new_from_node ()" link="gladeui-glade-parameter.html#glade-parameter-list-new-from-node"/>
-    <function name="" link="gladeui-glade-parameter.html#id446316"/>
-    <function name="" link="gladeui-glade-parameter.html#id446317"/>
+    <function name="" link="gladeui-glade-parameter.html#id446618"/>
+    <function name="" link="gladeui-glade-parameter.html#id446619"/>
     <function name="enum GladeUtilFileDialogType" link="gladeui-glade-utils.html#GladeUtilFileDialogType"/>
     <function name="enum GladeUIMessageType" link="gladeui-glade-utils.html#GladeUIMessageType"/>
     <function name="glade_util_widget_set_tooltip ()" link="gladeui-glade-utils.html#glade-util-widget-set-tooltip"/>
@@ -643,7 +643,7 @@
     <function name="glade_util_url_show ()" link="gladeui-glade-utils.html#glade-util-url-show"/>
     <function name="glade_util_get_file_mtime ()" link="gladeui-glade-utils.html#glade-util-get-file-mtime"/>
     <function name="glade_util_draw_selection_nodes ()" link="gladeui-glade-utils.html#glade-util-draw-selection-nodes"/>
-    <function name="" link="gladeui-glade-utils.html#id452168"/>
-    <function name="" link="gladeui-glade-utils.html#id452169"/>
+    <function name="" link="gladeui-glade-utils.html#id452542"/>
+    <function name="" link="gladeui-glade-utils.html#id452543"/>
   </functions>
 </book>

@@ -25,22 +25,22 @@
 <th width="100%" align="center">Glade User Interface Designer Reference Manual</th>
 <td><a accesskey="n" href="gladeui-glade-property.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id371837" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id372138" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id372371" class="shortcut">Description</a>
+                  <a href="#id372671" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id372200" class="shortcut">Object Hierarchy</a>
+                  <a href="#id372500" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id372230" class="shortcut">Properties</a>
+                  <a href="#id372531" class="shortcut">Properties</a>
                   &#160;|&#160;
-                  <a href="#id372326" class="shortcut">Signals</a></nobr></td></tr>
+                  <a href="#id372627" class="shortcut">Signals</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="GladeFixed"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id371837"></a><span class="refentrytitle">GladeFixed</span>
+<a name="id372138"></a><span class="refentrytitle">GladeFixed</span>
 </h2>
 <p>GladeFixed &#8212; An object wrapper for free-form placement container widgets.</p>
 </td>
@@ -57,7 +57,7 @@
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372200"></a><h2>Object Hierarchy</h2>
+<a name="id372500"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GObject
@@ -66,7 +66,7 @@
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372230"></a><h2>Properties</h2>
+<a name="id372531"></a><h2>Properties</h2>
 <pre class="synopsis">
 
   "<a href="GladeFixed.html#GladeFixed--can-resize">can-resize</a>"               gboolean              : Read / Write / Construct
@@ -77,7 +77,7 @@
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372326"></a><h2>Signals</h2>
+<a name="id372627"></a><h2>Signals</h2>
 <pre class="synopsis">
 
   "<a href="GladeFixed.html#GladeFixed-configure-begin">configure-begin</a>"                                : Run Last
@@ -86,7 +86,7 @@
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372371"></a><h2>Description</h2>
+<a name="id372671"></a><h2>Description</h2>
 <p>
 <a href="GladeFixed.html" title="GladeFixed"><span class="type">GladeFixed</span></a> is a specialized <a href="GladeWidget.html" title="GladeWidget"><span class="type">GladeWidget</span></a> to handle free-form child
 placements in containers that support this, it is designed with properties
@@ -106,61 +106,61 @@ with whatever child packing properties are available to make a closest match
 for the values passed to configure-child via the <span class="type">GdkRectangle</span>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372430"></a><h2>Details</h2>
+<a name="id372730"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id372440"></a><h3>
+<a name="id372741"></a><h3>
 <a name="GladeFixed-struct"></a>GladeFixed</h3>
-<a class="indexterm" name="id372453"></a><pre class="programlisting">typedef struct _GladeFixed GladeFixed;</pre>
+<a class="indexterm" name="id372753"></a><pre class="programlisting">typedef struct _GladeFixed GladeFixed;</pre>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372466"></a><h2>Property Details</h2>
+<a name="id372767"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id372477"></a><h3>
+<a name="id372777"></a><h3>
 <a name="GladeFixed--can-resize"></a>The <code class="literal">"can-resize"</code> property</h3>
-<a class="indexterm" name="id372492"></a><pre class="programlisting">  "can-resize"               gboolean              : Read / Write / Construct</pre>
+<a class="indexterm" name="id372792"></a><pre class="programlisting">  "can-resize"               gboolean              : Read / Write / Construct</pre>
 <p>Whether this container supports resizes of child widgets.</p>
 <p>Default value: TRUE</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id372518"></a><h3>
+<a name="id372818"></a><h3>
 <a name="GladeFixed--height-prop"></a>The <code class="literal">"height-prop"</code> property</h3>
-<a class="indexterm" name="id372533"></a><pre class="programlisting">  "height-prop"              gchararray            : Read / Write / Construct</pre>
+<a class="indexterm" name="id372834"></a><pre class="programlisting">  "height-prop"              gchararray            : Read / Write / Construct</pre>
 <p>The property used to set the height of a child object.</p>
 <p>Default value: "height-request"</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id372559"></a><h3>
+<a name="id372860"></a><h3>
 <a name="GladeFixed--width-prop"></a>The <code class="literal">"width-prop"</code> property</h3>
-<a class="indexterm" name="id372574"></a><pre class="programlisting">  "width-prop"               gchararray            : Read / Write / Construct</pre>
+<a class="indexterm" name="id372875"></a><pre class="programlisting">  "width-prop"               gchararray            : Read / Write / Construct</pre>
 <p>The property used to set the width of a child object.</p>
 <p>Default value: "width-request"</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id372600"></a><h3>
+<a name="id372901"></a><h3>
 <a name="GladeFixed--x-prop"></a>The <code class="literal">"x-prop"</code> property</h3>
-<a class="indexterm" name="id372616"></a><pre class="programlisting">  "x-prop"                   gchararray            : Read / Write / Construct</pre>
+<a class="indexterm" name="id372916"></a><pre class="programlisting">  "x-prop"                   gchararray            : Read / Write / Construct</pre>
 <p>The property used to set the X position of a child object.</p>
 <p>Default value: "x"</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id372642"></a><h3>
+<a name="id372943"></a><h3>
 <a name="GladeFixed--y-prop"></a>The <code class="literal">"y-prop"</code> property</h3>
-<a class="indexterm" name="id372657"></a><pre class="programlisting">  "y-prop"                   gchararray            : Read / Write / Construct</pre>
+<a class="indexterm" name="id372958"></a><pre class="programlisting">  "y-prop"                   gchararray            : Read / Write / Construct</pre>
 <p>The property used to set the Y position of a child object.</p>
 <p>Default value: "y"</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id372685"></a><h2>Signal Details</h2>
+<a name="id372985"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id372695"></a><h3>
+<a name="id372996"></a><h3>
 <a name="GladeFixed-configure-begin"></a>The <code class="literal">"configure-begin"</code> signal</h3>
-<a class="indexterm" name="id372711"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
+<a class="indexterm" name="id373011"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
                                                         GObject    *arg1,
                                                         gpointer    user_data)        : Run Last</pre>
 <p>
@@ -193,9 +193,9 @@ Signals the beginning of a Drag/Resize</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id372836"></a><h3>
+<a name="id373136"></a><h3>
 <a name="GladeFixed-configure-child"></a>The <code class="literal">"configure-child"</code> signal</h3>
-<a class="indexterm" name="id372852"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
+<a class="indexterm" name="id373152"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
                                                         GObject    *arg1,
                                                         gpointer    arg2,
                                                         gpointer    user_data)        : Run Last</pre>
@@ -234,9 +234,9 @@ Delegates the Drag/Resize job.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id373008"></a><h3>
+<a name="id373308"></a><h3>
 <a name="GladeFixed-configure-end"></a>The <code class="literal">"configure-end"</code> signal</h3>
-<a class="indexterm" name="id373024"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
+<a class="indexterm" name="id373324"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeFixed.html" title="GladeFixed">GladeFixed</a> *gladewidget,
                                                         GObject    *arg1,
                                                         gpointer    user_data)        : Run Last</pre>
 <p>
@@ -269,9 +269,9 @@ Signals the end of a Drag/Resize</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id373151"></a><div class="refsect2" lang="en"><a name="id373152"></a></div>
+<a name="id373451"></a><div class="refsect2" lang="en"><a name="id373452"></a></div>
 <hr>
-<div class="refsect2" lang="en"><a name="id373153"></a></div>
+<div class="refsect2" lang="en"><a name="id373453"></a></div>
 </div>
 </div>
 </body>

@@ -25,22 +25,22 @@
 <th width="100%" align="center">Glade User Interface Designer Reference Manual</th>
 <td><a accesskey="n" href="GladePlaceholder.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id418205" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id418507" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id418955" class="shortcut">Description</a>
+                  <a href="#id419257" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id418784" class="shortcut">Object Hierarchy</a>
+                  <a href="#id419086" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id418854" class="shortcut">Implemented Interfaces</a>
+                  <a href="#id419156" class="shortcut">Implemented Interfaces</a>
                   &#160;|&#160;
-                  <a href="#id418884" class="shortcut">Signals</a></nobr></td></tr>
+                  <a href="#id419186" class="shortcut">Signals</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="GladeBaseEditor"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id418205"></a><span class="refentrytitle">GladeBaseEditor</span>
+<a name="id418507"></a><span class="refentrytitle">GladeBaseEditor</span>
 </h2>
 <p>GladeBaseEditor &#8212; A customisable editor</p>
 </td>
@@ -77,7 +77,7 @@ GtkWidget*          <a href="GladeBaseEditor.html#glade-base-editor-pack-new-win
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id418784"></a><h2>Object Hierarchy</h2>
+<a name="id419086"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GObject
@@ -91,13 +91,13 @@ GtkWidget*          <a href="GladeBaseEditor.html#glade-base-editor-pack-new-win
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id418854"></a><h2>Implemented Interfaces</h2>
+<a name="id419156"></a><h2>Implemented Interfaces</h2>
 <p>
 GladeBaseEditor implements
  AtkImplementorIface and  GtkBuildable.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id418884"></a><h2>Signals</h2>
+<a name="id419186"></a><h2>Signals</h2>
 <pre class="synopsis">
 
   "<a href="GladeBaseEditor.html#GladeBaseEditor-build-child">build-child</a>"                                    : Run Last
@@ -109,22 +109,22 @@ GladeBaseEditor implements
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id418955"></a><h2>Description</h2>
+<a name="id419257"></a><h2>Description</h2>
 <p>
 Convenience object to edit containers where placeholders do not make sense, like GtkMenubar.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id418971"></a><h2>Details</h2>
+<a name="id419273"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id418981"></a><h3>
+<a name="id419283"></a><h3>
 <a name="GladeBaseEditor-struct"></a>GladeBaseEditor</h3>
-<a class="indexterm" name="id418993"></a><pre class="programlisting">typedef struct _GladeBaseEditor GladeBaseEditor;</pre>
+<a class="indexterm" name="id419295"></a><pre class="programlisting">typedef struct _GladeBaseEditor GladeBaseEditor;</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419006"></a><h3>
+<a name="id419308"></a><h3>
 <a name="glade-base-editor-new"></a>glade_base_editor_new ()</h3>
-<a class="indexterm" name="id419018"></a><pre class="programlisting"><a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a>*    glade_base_editor_new               (GObject *container,
+<a class="indexterm" name="id419320"></a><pre class="programlisting"><a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a>*    glade_base_editor_new               (GObject *container,
                                                          gboolean tree_like,
                                                          ...);</pre>
 <p>
@@ -157,9 +157,9 @@ Argument List:
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419099"></a><h3>
+<a name="id419401"></a><h3>
 <a name="glade-base-editor-add-default-properties"></a>glade_base_editor_add_default_properties ()</h3>
-<a class="indexterm" name="id419112"></a><pre class="programlisting">void                glade_base_editor_add_default_properties
+<a class="indexterm" name="id419414"></a><pre class="programlisting">void                glade_base_editor_add_default_properties
                                                         (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          <a href="GladeWidget.html" title="GladeWidget">GladeWidget</a> *gchild);</pre>
 <p>
@@ -185,9 +185,9 @@ NOTE: This function is intended to be used in "child-selected" callbacks</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419212"></a><h3>
+<a name="id419514"></a><h3>
 <a name="glade-base-editor-add-properties"></a>glade_base_editor_add_properties ()</h3>
-<a class="indexterm" name="id419225"></a><pre class="programlisting">void                glade_base_editor_add_properties    (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
+<a class="indexterm" name="id419527"></a><pre class="programlisting">void                glade_base_editor_add_properties    (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          <a href="GladeWidget.html" title="GladeWidget">GladeWidget</a> *gchild,
                                                          gboolean packing,
                                                          ...);</pre>
@@ -224,9 +224,9 @@ NOTE: This function is intended to be used in "child-selected" callbacks</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419359"></a><h3>
+<a name="id419661"></a><h3>
 <a name="glade-base-editor-add-label"></a>glade_base_editor_add_label ()</h3>
-<a class="indexterm" name="id419372"></a><pre class="programlisting">void                glade_base_editor_add_label         (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
+<a class="indexterm" name="id419674"></a><pre class="programlisting">void                glade_base_editor_add_label         (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          gchar *str);</pre>
 <p>
 Adds a new label to <em class="parameter"><code>editor</code></em>
@@ -251,9 +251,9 @@ NOTE: This function is intended to be used in "child-selected" callbacks</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419458"></a><h3>
+<a name="id419760"></a><h3>
 <a name="glade-base-editor-add-popup-items"></a>glade_base_editor_add_popup_items ()</h3>
-<a class="indexterm" name="id419471"></a><pre class="programlisting">void                glade_base_editor_add_popup_items   (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
+<a class="indexterm" name="id419773"></a><pre class="programlisting">void                glade_base_editor_add_popup_items   (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          ...);</pre>
 <p>
 Adds a new popup item to the editor.
@@ -279,9 +279,9 @@ Three parameters are needed for each new popup item:
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419549"></a><h3>
+<a name="id419851"></a><h3>
 <a name="glade-base-editor-set-show-signal-editor"></a>glade_base_editor_set_show_signal_editor ()</h3>
-<a class="indexterm" name="id419562"></a><pre class="programlisting">void                glade_base_editor_set_show_signal_editor
+<a class="indexterm" name="id419864"></a><pre class="programlisting">void                glade_base_editor_set_show_signal_editor
                                                         (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          gboolean val);</pre>
 <p>
@@ -304,9 +304,9 @@ Shows/hide <em class="parameter"><code>editor</code></em> 's signal editor</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419644"></a><h3>
+<a name="id419946"></a><h3>
 <a name="glade-base-editor-pack-new-window"></a>glade_base_editor_pack_new_window ()</h3>
-<a class="indexterm" name="id419657"></a><pre class="programlisting">GtkWidget*          glade_base_editor_pack_new_window   (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
+<a class="indexterm" name="id419959"></a><pre class="programlisting">GtkWidget*          glade_base_editor_pack_new_window   (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *editor,
                                                          gchar *title,
                                                          gchar *help_markup);</pre>
 <p>
@@ -339,11 +339,11 @@ This convenience function create a new modal window and packs <em class="paramet
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id419772"></a><h2>Signal Details</h2>
+<a name="id420074"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id419782"></a><h3>
+<a name="id420084"></a><h3>
 <a name="GladeBaseEditor-build-child"></a>The <code class="literal">"build-child"</code> signal</h3>
-<a class="indexterm" name="id419798"></a><pre class="programlisting">GObject*            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420100"></a><pre class="programlisting">GObject*            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *gparent,
                                                         guint            type,
                                                         gpointer         user_data)            : Run Last</pre>
@@ -382,18 +382,18 @@ calling <a href="GladeCommand.html#glade-command-create"><code class="function">
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id419954"></a><h3>
+<a name="id420256"></a><h3>
 <a name="GladeBaseEditor-change-type"></a>The <code class="literal">"change-type"</code> signal</h3>
-<a class="indexterm" name="id419970"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420272"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *arg1,
                                                         guint            arg2,
                                                         gpointer         user_data)            : Run Last</pre>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id420016"></a><h3>
+<a name="id420318"></a><h3>
 <a name="GladeBaseEditor-child-selected"></a>The <code class="literal">"child-selected"</code> signal</h3>
-<a class="indexterm" name="id420032"></a><pre class="programlisting">void                user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420334"></a><pre class="programlisting">void                user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *gchild,
                                                         gpointer         user_data)            : Run Last</pre>
 <p>
@@ -424,9 +424,9 @@ editor look pretty.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id420159"></a><h3>
+<a name="id420461"></a><h3>
 <a name="GladeBaseEditor-delete-child"></a>The <code class="literal">"delete-child"</code> signal</h3>
-<a class="indexterm" name="id420175"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420477"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *gparent,
                                                         GObject         *gchild,
                                                         gpointer         user_data)            : Run Last</pre>
@@ -459,9 +459,9 @@ editor look pretty.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id420293"></a><h3>
+<a name="id420595"></a><h3>
 <a name="GladeBaseEditor-get-display-name"></a>The <code class="literal">"get-display-name"</code> signal</h3>
-<a class="indexterm" name="id420309"></a><pre class="programlisting">gchar*              user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420611"></a><pre class="programlisting">gchar*              user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *gchild,
                                                         gpointer         user_data)            : Run Last</pre>
 <p>
@@ -494,9 +494,9 @@ treeview.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id420422"></a><h3>
+<a name="id420724"></a><h3>
 <a name="GladeBaseEditor-move-child"></a>The <code class="literal">"move-child"</code> signal</h3>
-<a class="indexterm" name="id420438"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
+<a class="indexterm" name="id420740"></a><pre class="programlisting">gboolean            user_function                      (<a href="GladeBaseEditor.html" title="GladeBaseEditor">GladeBaseEditor</a> *gladebaseeditor,
                                                         GObject         *gparent,
                                                         GObject         *gchild,
                                                         gpointer         user_data)            : Run Last</pre>
@@ -534,9 +534,9 @@ Move child here if something else must be done other than cut &amp; paste.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id420583"></a><div class="refsect2" lang="en"><a name="id420584"></a></div>
+<a name="id420885"></a><div class="refsect2" lang="en"><a name="id420886"></a></div>
 <hr>
-<div class="refsect2" lang="en"><a name="id420586"></a></div>
+<div class="refsect2" lang="en"><a name="id420888"></a></div>
 </div>
 </div>
 </body>

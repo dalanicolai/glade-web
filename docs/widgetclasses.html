@@ -36,7 +36,7 @@ Adding support for custom widgets
 <td valign="top" align="right"></td>
 </tr></table></div>
 <div class="refsect1" lang="en">
-<a name="id326160"></a><h2>Forward</h2>
+<a name="id325931"></a><h2>Forward</h2>
 <p>
 Widget support in Glade is provided by the <a href="gladeui-GladeWidgetAdaptor.html#GladeWidgetAdaptor"><span class="type">GladeWidgetAdaptor</span></a> object, each
 `glade-widget-class' definition in the catalog will result in the creation
@@ -70,6 +70,14 @@ Here is the complete example of the form of the `glade-widget-class' definition:
     ... property definitions go here
 
   &lt;/properties&gt;
+
+  &lt;signals&gt;
+
+    &lt;signal id="frobnicate" since="1.0"/&gt;
+
+    ... signal definitions go here
+
+  &lt;/signals&gt;
 
   &lt;packing-properties&gt;
 
@@ -106,7 +114,7 @@ Here is the complete example of the form of the `glade-widget-class' definition:
     </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id326306"></a><h2>Widget Class Properties</h2>
+<a name="id326389"></a><h2>Widget Class Properties</h2>
 <p>
 The following are all properies of the `glade-widget-class' tag
     </p>
@@ -120,6 +128,25 @@ The class name of the widget; unless the 'get-type-function' property is present
 this will essentially be used to instantiate the actual class by deriving 
 'gtk_label_get_type' from 'GtkLabel' and searching for 'gtk_label_get_type' in the 
 support library.
+          </p></td>
+</tr>
+<tr>
+<td><span class="term">since</span></td>
+<td><p>
+A 'major.minor' formed version describing the version of the owning catalog in which this 
+object class was introduced; example: <code class="literal">since="1.0"</code>.
+          </p></td>
+</tr>
+<tr>
+<td><span class="term">deprecated</span></td>
+<td><p>
+A boolean property depicting that this widget is currently deprecated.
+          </p></td>
+</tr>
+<tr>
+<td><span class="term">builder-unsupported</span></td>
+<td><p>
+A boolean property depicting that this widget is not supported by <span class="type">GtkBuilder</span>.
           </p></td>
 </tr>
 <tr>
@@ -202,7 +229,7 @@ This property will be inherited from the adaptors parent.
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id326563"></a><h2>Adapter Methods</h2>
+<a name="id326704"></a><h2>Adapter Methods</h2>
 <p>
 The following are all child tags of the `glade-widget-class' tag
     </p>
@@ -349,7 +376,7 @@ A <a href="gladeui-GladeWidgetAdaptor.html#GladeStringFromValueFunc"><span class
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327090"></a><h2>Action Definitions</h2>
+<a name="id327231"></a><h2>Action Definitions</h2>
 <p>
 Actions are added under the `actions' and `packing-actions' tags, actions can also
 be nested so as to allow grouping in context menus, example:
@@ -402,7 +429,7 @@ are added to the toolbar.
 </table></div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327187"></a><h2>Packing Defaults</h2>
+<a name="id327328"></a><h2>Packing Defaults</h2>
 <p>
 Default values can be specified for packing properties on your widget when added
 to a said type of parent, as the example shows above; use the `parent-class' to 
@@ -412,7 +439,16 @@ specify the property name and the `default' property for the value.
     </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id327200"></a><h2>Icons</h2>
+<a name="id327341"></a><h2>Signals</h2>
+<p>
+The signal elements are currently only needed for versioning support, use
+the `signal' child tag as described above and set signal `id' to be supported
+since version `since'. Signals are initialized to be supported since the
+introducing <a href="gladeui-GladeWidgetAdaptor.html#GladeWidgetAdaptor"><span class="type">GladeWidgetAdaptor</span></a> was supported.
+    </p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id327361"></a><h2>Icons</h2>
 <p>
 The Glade palette and other components use icons to represent the various widget classes. 
 It is a good idea to provide icons for your widget classes, as this
