@@ -28,6 +28,7 @@
     </div>
 
     <div id="body">
+    <br>
     <h2>Latest news</h2>
     <div>
         <a href="http://glade.gnome.org/news.rss"><img src="images/feed-icon-14x14.png" alt="RSS" title="RSS feed" /></a>
@@ -37,3 +38,4 @@
     </div>
 
 <!--stp:include('foot.src') -->
+
