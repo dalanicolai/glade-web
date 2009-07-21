@@ -18,7 +18,10 @@ item("New website design", (2009, 7, 20),
      """Our website gets a facelift. Enjoy!.""", 'Javier Jardón')
 
 item("Glade 3.6.7 released", (2009, 6, 29),
-     """This is a bugfix release. See full announcement for details.""", 'Tristan van Berkom')
+     """Glade 3.6.7 "Horizontally Oriented" Released !
+<br>
+See <a href="http://mail.gnome.org/archives/gnome-announce-list/2009-June/msg00063.html">full announcement</a> for details.""", 'Tristan van Berkom')
+
 
 item("Glade 3.6.0 released", (2009, 3, 16),
      """<br>Glade has seen a world of improvement since 3.4, if you dont know about it, 
