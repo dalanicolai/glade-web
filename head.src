@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 <head>
        <title>Glade - A User Interface Designer</title>
+       <link rel="icon" type="image/png" href="http://developer.gnome.org/images/gnome-16.png" />
 
        <meta http-equiv="Content-Type"
              content="text/html; charset=utf-8"/>
@@ -20,9 +21,8 @@
 
     </div>
     <div id="sidebar">
-        <h3>Downloads</h3>
+        <h3>Current Version: <strong>3.6</strong></h3>
         <ul id="link">
-          <li>Current Version: <strong>3.6</strong></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Windows binaries</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">MacOSX binaries</a></li>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
@@ -41,7 +41,7 @@
         <h3>Development</h3>
           <ul id="link">
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
-            <li><a href="http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&product=glade3&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_severity=enhancement">Bug list</a></li>
+            <li><a href="http://bugzilla.gnome.org/buglist.cgi?query=product%3Aglade3+">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>
             <li><a href="http://live.gnome.org/Glade">Wiki</a></li>
           </ul>

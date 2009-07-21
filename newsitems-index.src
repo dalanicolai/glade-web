@@ -40,12 +40,12 @@
 	  In GtkBuilder format, we have access to a whole new world of objects
 	  we've never seen before in Glade:
 	<ul>
-     <li> GtkAction:
+     <LI> GtkAction: <br>
 	   Represent your UI frontend widget(s) by an Action, actions
        are a great abstraction for UI components and let you have multiple
        screen widgets that correspond to a single "action" who all conform
        to the said actions state.
-     </li>
+
      <LI> GTK+ MVC Framework:<br>
        Now we give you access to GtkTreeView, GtkIconView, GtkComboBox (as a view),
        GtkListStore, GtkTreeStore in Glade.<br>That pretty much says it all, I encourage
