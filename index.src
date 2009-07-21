@@ -25,6 +25,7 @@
     <p>Glade is Free software released under the
 	  <a href="http://www.fsf.org/licensing/licenses/gpl.html">GNU GPL License</a>
     </p>
+    </div>
 
     <h2>Latest news</h2>
     <div>
@@ -32,6 +33,5 @@
         <a href="http://glade.gnome.org/news.html"><small>Old stories</small></a>
     </div>
 <!--stp:include('newsitems-index.src') -->
-    </div>
 
 <!--stp:include('foot.src') -->
