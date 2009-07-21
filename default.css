@@ -77,7 +77,8 @@ a:active {
     border-width:1px 0 0 0;
     border-style:dotted;
     margin: 0.3em 0.1em;
-    padding:0px;
+    padding-top:2px;
+    padding-right: 10px;
 }
 
 .news h4 a {
