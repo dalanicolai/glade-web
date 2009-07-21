@@ -1,6 +1,7 @@
 <!--stp:include('head.src') -->
 
     <div id="body">
+    <div>
 
     <p class="thumb">
     <a class="thumb" href="images/glade-main-page.png">
@@ -27,7 +28,7 @@
     </p>
     </div>
 
-    <div id="body">
+    <div>
     <br>
     <h2>Latest news</h2>
     <div>
@@ -35,6 +36,7 @@
         <a href="http://glade.gnome.org/news.html"><small>Old stories</small></a>
     </div>
 <!--stp:include('newsitems-index.src') -->
+    </div>
     </div>
 
 <!--stp:include('foot.src') -->
