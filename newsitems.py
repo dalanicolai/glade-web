@@ -15,7 +15,7 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 item("New website design", (2009, 7, 20),
-     """Our website gets a facelift. Enjoy!.""", 'Tristan van Berkom')
+     """Our website gets a facelift. Enjoy!.""", 'Javier Jardón')
 
 item("Glade 3.6.7 released", (2009, 6, 29),
      """This is a bugfix release. See full announcement for details.""", 'Tristan van Berkom')
