@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+  <channel>
+    <title>Glade News</title>
+    <description>Glade is a RAD tool to enable quick and easy development
+    of user interfaces for the GTK+ toolkit and the GNOME desktop environment,
+    released under the GNU GPL License.
+
+    The user interfaces designed in Glade are saved as XML, and by using the
+    GtkBuilder GTK+ object these can be loaded by applications dynamically as
+    needed.
+
+    By using GtkBuilder, Glade XML files can be used in numerous programming
+    languages including C, C++, Vala, Java, Perl, Python, C#, Pike, Ruby,
+    Haskell, Objective Caml and Scheme.
+    </description>
+    <language>en-us</language>
+    <link>http://glade.gnome.org</link>
+    <copyright> © 2003 by The GNOME Project</copyright>
+    <webMaster>glade-web@glade.gnome.org</webMaster>
+
+  <image>
+    <title>Glade</title>
+    <url>http://glade.gnome.org/images/gnome-64.png</url>
+    <link>http://glade.gnome.org</link>
+  </image>
+
+  <item>
+    <title>New website design</title>
+    <link>http://glade.gnome.org/news.html#item2</link>
+    <pubDate>Mon, 20 Jul 2009 00:00:00 GMT</pubDate>
+    <description>Our website gets a facelift. Enjoy!.</description>
+  </item>
+
+  <item>
+    <title>Glade 3.6.7 released</title>
+    <link>http://glade.gnome.org/news.html#item1</link>
+    <pubDate>Mon, 29 Jun 2009 00:00:00 GMT</pubDate>
+    <description>This is a bugfix release. See full announcement for details.</description>
+  </item>
+
+  </channel>
+</rss>

@@ -63,6 +63,30 @@ a:active {
 #hdr h2 {
     font-size: 120%;
 }
+/* News */
+
+.news * {
+    font-size:90%;
+    margin: 0.1em;
+    padding:0px;
+}
+
+.news h4 {
+    font-size: 120%;
+    border-width:1px 0 0 0;
+    border-style:dotted;
+    margin: 0.3em 0.1em;
+    padding:0px;
+}
+
+.news h4 a {
+    color:black;
+}
+
+.news h5 {
+    font-size:75%;
+    color:gray;
+}
 
 /* Sidebar */
 
