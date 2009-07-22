@@ -27,11 +27,10 @@
     </p>
 
     <div id="newsblock">
-    <h2>Latest news</h2>
-    <div>
-        <a href="http://glade.gnome.org/news.rss"><img src="images/feed-icon-14x14.png" alt="RSS" title="RSS feed" /></a>
-        <a href="http://glade.gnome.org/news.html"><small>Old stories</small></a>
-    </div>
+    <h2 id="newsheader">Latest news
+        <span id="rsslinks"><a href="http://glade.gnome.org/news.rss"><img src="images/feed-icon-14x14.png" alt="RSS" title="RSS feed" /></a>
+        <a href="http://glade.gnome.org/news.html"><small>Old stories</small></a></span>
+    </h2>
 <!--stp:include('newsitems-index.src') -->
     </div>
     </div>

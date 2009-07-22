@@ -3,11 +3,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Verdana", "Arial", sans-serif;
-  background-color: #FFFFFF;
-}
 
-h1, h2 {
-  font-family: "Times", "Georgia", serif;
+  background-color: #FFFFFF;
 }
 
 #body {
@@ -27,8 +24,11 @@ a img {
 a {
   border: none;
   text-decoration: none;
-  font-weight: bold;
-  color: #73d216;
+  color: #33BB00;
+}
+
+a:hover {
+  text-decoration:underline;
 }
 
 /* Common page elements: Header, footer, etc. */
@@ -43,25 +43,35 @@ a {
 #hdr h1 {
   margin: 0em;
   padding-top: 0.5em;
-  font-size: 175%;
-}
-
-#hdr img {
-  float: left;
+  font-size: 165%;
 }
 
 #hdr h2 {
   font-size: 120%;
 }
 
+#hdr img {
+  float: left;
+}
+
 /* News */
 #newsblock {
-  padding-top:1.5em;
+  padding-top:0.3em;
   clear:left;
 }
 
+#rsslinks {
+  float:right;
+  font-size:x-small;
+  margin-top:1em;
+}
+
+#newsheader {
+  margin-bottom:0.2em;
+}
+
 .news {
-  font-size:85%;
+  font-size:75%;
   color:#797979;
 }
 
@@ -99,6 +109,10 @@ a {
 
 /* Sidebar */
 
+#sidebar * {
+  font-size:100%;
+}
+
 #sidebar {
   float: right;
   width: 18em;
@@ -113,7 +127,8 @@ a {
   padding-right: 10px;
 }
 
-#sidebar h3 {
+#sidebar h1 {
+  font-family: sans-serif;
   font-weight: bold;
   background-color: #eeeeee;
   padding: 0.3em;
@@ -133,6 +148,11 @@ a {
   list-style-type: square;
 }
 
+#ircinfo {
+  font-size: 90%;
+  color: gray;
+}
+
 /* Copyright footer */
 #copyright {
   text-align: center;
@@ -142,6 +162,7 @@ a {
   color: #FFFFFF;
   margin: 2em 0em 0em 0em;
   padding: 1em;
+  border-top: 1px solid #000000;
 }
 
 /* Generic Classes */

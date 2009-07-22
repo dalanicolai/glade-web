@@ -21,36 +21,36 @@
     </div>
 
     <div id="sidebar">
-        <h3>Current Version: <strong>3.6</strong></h3>
+        <h1>Current Version: <strong>3.6</strong></h1>
         <ul>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Windows binaries</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">MacOSX binaries</a></li>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
           <li><a href="http://git.gnome.org/cgit/glade3">Browse Sources</a></li>
         </ul>
-        <h3>Documentation</h3>
+        <h1>Documentation</h1>
           <ul>
             <li><a href="http://live.gnome.org/Glade/Tutorials">Tutorials</a></li>
             <li><a href="http://library.gnome.org/devel/gladeui/3.6/">API Reference</a></li>
           </ul>
-        <h3>Help</h3>
+        <h1>Help</h1>
           <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-users">Users mailing list</a></li>
             <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=glade3">File a bug</a></li>
           </ul>
-        <h3>Development</h3>
+        <h1>Development</h1>
           <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
             <li><a href="http://bugzilla.gnome.org/buglist.cgi?query=product%3Aglade3+">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>
             <li><a href="http://live.gnome.org/Glade">Wiki</a></li>
           </ul>
-          <ul>
+          <ul id="ircinfo">
             <li><strong>IRC</strong></li>
-            <li><b>server : </b>irc.gimp.net</li>
-            <li><b>channel : </b>#glade3</li>
+            <li><strong>server: </strong>irc.gimp.net</li>
+            <li><strong>channel: </strong>#glade3</li>
           </ul>
-        <h3>Related tools</h3>
+        <h1>Related tools</h1>
           <ul>
             <li><a href="http://projects.gnome.org/anjuta/">Anjuta IDE</a></li>
             <li><a href="http://projects.gnome.org/nemiver/">Nemiver Debugger</a></li>
