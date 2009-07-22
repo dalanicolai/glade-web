@@ -18,11 +18,11 @@
     <div id="hdr">
         <img alt="logo" src="images/glade.png" />
         <h1>Glade - A User Interface Designer</h1>
-
     </div>
+
     <div id="sidebar">
         <h3>Current Version: <strong>3.6</strong></h3>
-        <ul id="link">
+        <ul>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Windows binaries</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">MacOSX binaries</a></li>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
@@ -39,7 +39,7 @@
             <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=glade3">File a bug</a></li>
           </ul>
         <h3>Development</h3>
-          <ul id="link">
+          <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
             <li><a href="http://bugzilla.gnome.org/buglist.cgi?query=product%3Aglade3+">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>

@@ -105,9 +105,9 @@ def write_rss(fp, items):
 
 src_item_template = r"""
 <div class="news">
-<h4><a name="%(anchor)s">%(title)s</a></h4>
-<h5>%(pubDate)s by %(author)s</h5>
-<div>%(description)s</div>
+<h1 class="title"><a name="%(anchor)s">%(title)s</a></h1>
+<h2 class="title">%(pubDate)s by %(author)s</h2>
+<div class="ndescription">%(description)s</div>
 </div>
 """
 

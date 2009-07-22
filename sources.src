@@ -1,7 +1,6 @@
 <!--stp:include('head.src') -->
 
     <div id="body">
-
         <h2>Getting sources</h2>
         <p>Sources of the Glade project can be obtained either from:</p>
         <ul>
