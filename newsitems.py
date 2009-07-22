@@ -22,69 +22,22 @@ item("""Glade 3.6.7 "Horizontally Oriented" released""", (2009, 6, 29),
 
 item("Glade 3.6.0 released", (2009, 3, 16),
      """
-    <p>Glade has seen a world of improvement since 3.4, if you dont know about it,
-    then I should at least skim over the new features and control we offer over your interface.</p>
+    <p>This is a major release and Glade has seen a world of improvement since 3.4. See the <a href="http://lists.ximian.com/pipermail/glade-users/2009-March/004244.html">full announcement</a> for details.</p>
 
-    <h1>Dual Project Formats</h1>
-    <p>Now projects can be edited in libglade format and in GtkBuilder
-    format, offering you a load of new features only available in
-    GtkBuilder format (also removing access to deprecated widgets).</p>
-
-    <p>Projects can be converted, the operation is undoable, and can
-    result in data loss when some objects/widgets cant be ported to
-    the target format (classic libglade format projects can always
-    be converted to GtkBuilder format).
-
-    <h1>Target Project Version</h1>
-    <p>Glade now lets you target your GTK+ version for your project,
-    giving you visual feedback and warnings about objects, properties
-    and signals that you may be using that are not available in
-    the targetted version of GTK+.</p>
-
-    <p>Interestingly Glade 3.6 depends on GTK+ 2.14, but gives you access to GTK+
-    properties from GTK+ 2.16 even if only running against 2.14.</p>
-
-    <h1>Access to new objects</h1>
-    <p>In GtkBuilder format, we have access to a whole new world of objects
-    we've never seen before in Glade:</p>
+    <p>Some feature highlights for this version are:</p>
     <ul>
-    <li><h2>GtkAction:</h2>
-    <p>Represent your UI frontend widget(s) by an Action, actions
-    are a great abstraction for UI components and let you have multiple
-    screen widgets that correspond to a single "action" who all conform
-    to the said actions state.</p>
-
-    <li><h2>GTK+ MVC Framework:</h2>
-    <p>Now we give you access to GtkTreeView, GtkIconView, GtkComboBox (as a view),
-    GtkListStore, GtkTreeStore in Glade.</p>
-    <p>That pretty much says it all, I encourage
-    you all to try it, define columns and data for your treemodel, define columns
-    and renderers for your treeview, in an all in one treeview editor.</p>
+    <li>Support for the old libglade and the new <strong>GtkBuilder format</strong>.</li>
+    <li><strong>Target a specific GTK+ version</strong> and only the relevant objects, signals and properties will be avaliable.</li>
+    <li><strong>New GTK+ objects avaliable</strong> thanks to GtkBuilder:
+        <ul>
+        <li>GtkAction</li>
+        <li>Gtk+'s MVC elements like GtkTreeView, GtkIconView, GtkComboBox, GtkListStore or GtkTreeStore, allowing to define within Glade all the column, cellrenderer or model elements and connect them to have a working treeview, all that using a specialized editor.</li>
+        <li>GtkIconFactory</li>
+        <li>GtkSizeGroup</li>
+        </ul>
     </li>
-    <li><h2>GtkIconFactory:</h2>
-    <p>Add your own stock id definitions using an icon factory, define graphics
-    for different widget sizes and widget states.</p>
-    </li>
-    <li><h2>GtkSizeGroup:</h2>
-    <p>Add widgets to logical groups that ensure all members have the same size.</p>
-    </li>
-    </ul>
-    <h1>Sexy New Editors</h1>
-    <p>With a new internal interface, we allow plugins to define editor layouts on a
-    class level basis, now we have customized editors for GtkButton, GtkImage, GtkLabel,
-    GtkEntry and many more (and they all have size to fit word wrapping property description texts in them).</p>
-
-    <h1>The Python Plugin</h1>
-    <p>This is finally worked out into a plugin, its been around for a while now but
-    wasnt publicly/stably released to my knowlage, what it does is allow Glade to
-    introspect and load your python classes properties and signals and add it to
-    the palette automatically (with the use of a one or 2 liner user catalog),
-    documentation coming, or ask Juan Pablo ;-)</p>
-
-    <h1>Some Enhancements</h1>
-    <ul>
-    <li><p>Inspector lets you filter and search the project with an added entry (behaves like DevHelp's search entry but on the project).</p></li>
-    <li><p>You can edit widgets inline with their editor in a dialog (Edit Separately in context menu), this editor window will stay on the same widget when selection changes).</p></li>
+    <li><strong>Custom editors</strong> for GtkButton, GtkImage, GtkLabel, GtkEntry and many more.</li>
+    <li><strong>Python plugin</strong></li>
     </ul>
     """, 'Juan Pablo Ugarte')
 
