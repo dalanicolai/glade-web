@@ -3,7 +3,7 @@
 <head>
        <title>Glade - A User Interface Designer</title>
        <link rel="icon" type="image/png" href="http://developer.gnome.org/images/gnome-16.png" />
-
+       <link rel="alternate" type="application/rss+xml" title="Glade News" href="http://glade.gnome.org/news.rss" />
        <meta http-equiv="Content-Type"
              content="text/html; charset=utf-8"/>
        <link rel="stylesheet"
