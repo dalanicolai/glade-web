@@ -19,7 +19,8 @@
 	   these can be loaded by applications dynamically as needed.
 	</p>
 	<p>
-	   By using GtkBuilder, Glade XML files can be used in numerous programming languages
+	   By using GtkBuilder, Glade XML files can be used in numerous 
+	   <a href="http://www.gtk.org/language-bindings.html">programming languages</a>
 	   including C, C++, C#, Vala, Java, Perl, Python,and others.
 	</p>
     <p>Glade is Free software released under the
