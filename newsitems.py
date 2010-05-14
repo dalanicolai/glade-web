@@ -15,7 +15,7 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
-item("""Glade 3.7.1 released""", (2010, 3, 10),
+item("""Glade 3.7.1 released""", (2010, 5, 14),
      """
     <p>An exciting start to the 3.7 series is released.</p>
     <p>Some highlights in this release:</p>
