@@ -15,6 +15,19 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+item("""Glade 3.7.1 released""", (2010, 3, 10),
+     """
+    <p>An exciting start to the 3.7 series is released.</p>
+    <p>Some highlights in this release:</p>
+    <ul>
+    <li>Added notebook tabs to navigate through projects.</li>
+    <li>Option to hide toolbar/statusbar.</li>
+    <li>Now Glade uses GtkToolPalette for its palette.</li>
+    <li>Signal Editor greatly improved</li>
+    </ul>
+    <p>See the <a href="http://mail.gnome.org/archives/gnome-announce-list/2010-May/msg00025.html">full announcement</a> for more details.</p>
+     """, 'Tristan Van Berkom')
+
 item("""Glade 3.7.0 released""", (2010, 3, 10),
      """See the <a href="http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00030.html">full announcement</a> for details.""", 'Tristan Van Berkom')
 

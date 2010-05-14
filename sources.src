@@ -2,10 +2,11 @@
 
     <div id="body">
         <h2>Getting sources</h2>
-        <p>Sources of the Glade project can be obtained either from:</p>
+        <p>To get the sources for the Glade project choose one of our release tarballs:</p>
         <ul>
-          <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.6/">source code tarballs</a> of released versions, or</li>
-          <li><a href="http://git.gnome.org/cgit/glade3">our git repository</a> to get bleeding edge source code. To clone it you need to type:
+          <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.6/">stable version source code tarballs</a></li>
+          <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.7/">development version source code tarballs</a></li>
+          <li>Or use our <a href="http://git.gnome.org/cgit/glade3">git repository</a> to get the bleeding edge source code. To clone it you need to type:
           <code>git clone git://git.gnome.org/glade3</code></li>
         </ul>
     </div>
