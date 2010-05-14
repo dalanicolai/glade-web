@@ -20,6 +20,7 @@ item("""Glade 3.7.1 released""", (2010, 5, 14),
     <p>An exciting start to the 3.7 series is released.</p>
     <p>Some highlights in this release:</p>
     <ul>
+    <li>No more Horizontal VBoxes</li>
     <li>Added notebook tabs to navigate through projects.</li>
     <li>Option to hide toolbar/statusbar.</li>
     <li>Now Glade uses GtkToolPalette for its palette.</li>
