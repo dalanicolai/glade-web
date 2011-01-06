@@ -19,7 +19,7 @@ item = lambda *x: items.append(x)
 item("""Glade 3.9.0 released""", (2011, 1, 6),
      """
     <p>Glade 3.9.0 is now available for download.</p>
-    <p>This is the first GTK+ 3.0 compatible release leading up to 3.10. It</p>
+    <p>This is the first GTK+ 3.0 compatible release leading up to 3.10.</p>
     <p>Some highlights in this release:</p>
     <ul>
     <li>New Preview feature available.</li>
