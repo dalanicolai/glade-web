@@ -15,6 +15,37 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+
+item("""Glade 3.9.0 released""", (2011, 1, 6),
+     """
+    <p>Glade 3.9.0 is now available for download.</p>
+    <p>This is the first GTK+ 3.0 compatible release leading up to 3.10. It</p>
+    <p>Some highlights in this release:</p>
+    <ul>
+    <li>New Preview feature available.</li>
+    <li>Custom Editor to edit GtkActionGroup.</li>
+    <li>Progress bars in the notebook tabs while projects are loading.</li>
+    <li>Optimizations: object selection time and project switching time is greatly improved.</li>
+    <li>The core library for 3.10 onward will be ABI stable.</li>
+    </ul>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2011-January/001858.html">full announcement</a> for more details.</p>
+     """, 'Tristan Van Berkom')
+
+item("""Glade 3.7.3 released""", (2011, 1, 6),
+     """
+    <p>Glade 3.7.3 is now available for download.</p>
+    <p>Some highlights in this release:</p>
+    <ul>
+    <li>New Preview feature available.</li>
+    <li>Custom Editor to edit GtkActionGroup.</li>
+    <li>Support for loading GtkOptionMenu.</li>
+    <li>Progress bars in the notebook tabs while projects are loading.</li>
+    <li>Stability, stability and more stability.</li>
+    </ul>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2011-January/001859.html">full announcement</a> for more details.</p>
+     """, 'Tristan Van Berkom')
+
+
 item("""Glade 3.7.1 released""", (2010, 5, 14),
      """
     <p>An exciting start to the 3.7 series is released.</p>
