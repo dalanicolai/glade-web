@@ -24,7 +24,7 @@
         <h1>Current Version: <strong>3.6</strong></h1>
         <ul>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
-          <li><a href="http://git.gnome.org/cgit/glade3">Browse Sources</a></li>
+          <li><a href="http://git.gnome.org/cgit/glade">Browse Sources</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Windows Binaries</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">MacOSX Binaries</a></li>
         </ul>
@@ -36,12 +36,12 @@
         <h1>Help</h1>
           <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-users">Users mailing list</a></li>
-            <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=glade3">File a bug</a></li>
+            <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=glade">File a bug</a></li>
           </ul>
         <h1>Development</h1>
           <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
-            <li><a href="http://bugzilla.gnome.org/buglist.cgi?query=product%3Aglade3+">Bug list</a></li>
+            <li><a href="http://bugzilla.gnome.org/buglist.cgi?query=product%3Aglade+">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>
             <li><a href="http://live.gnome.org/Glade">Wiki</a></li>
           </ul>
