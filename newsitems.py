@@ -15,6 +15,18 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+item("""Glade 3.9.2 released""", (2011, 2, 1),
+     """
+    <p>Glade 3.9.2 is now available for download.</p>
+    <p>This is the third GTK+ 3.0 compatible release leading up to 3.10.</p>
+    <p>Some highlights in this release:</p>
+    <ul>
+    <li>Project widgets are rendered off screen, nicer selection drawing.</li>
+    <li>All project widgets show up in the same workspace.</li>
+    <li>Added support for GtkComboBoxText, GtkFileFilter and GtkRecentFilter.</li>
+    </ul>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2011-February/001881.html">full announcement</a> and <a href="http://blogs.gnome.org/tvb/2011/02/01/glade-learns-some-new-tricks/">blog post</a> for more details.</p>
+     """, 'Tristan Van Berkom')
 
 item("""Glade 3.9.1 released""", (2011, 1, 13),
      """
