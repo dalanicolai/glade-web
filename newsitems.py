@@ -15,7 +15,7 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
-item("""Glade 3.8.0 and 3.10.0 released""", (2011, 2, 1),
+item("""Glade 3.8.0 and 3.10.0 released""", (2011, 4, 5),
      """
     <p>Glade 3.8.0 and 3.10.0 are now available for download.</p>
     <p>3.8.0 is the last stable series of Glade for GTK+2 and 3.10.0 is the first stable series for GTK+3</p>
