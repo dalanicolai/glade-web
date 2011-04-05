@@ -18,7 +18,7 @@ item = lambda *x: items.append(x)
 item("""Glade 3.8.0 and 3.10.0 released""", (2011, 4, 5),
      """
     <p>Glade 3.8.0 and 3.10.0 are now available for download.</p>
-    <p>3.8.0 is the last stable series of Glade for GTK+2 and 3.10.0 is the first stable series for GTK+3</p>
+    <p>3.8 is the last stable series of Glade for GTK+2 and 3.10 is the first stable series for GTK+3</p>
     <p>Major changes in 3.10 compared to past stable releases:</p>
     <ul>
     <li>ABI stability for plugins and IDE embedders.</li>
