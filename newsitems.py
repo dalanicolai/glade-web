@@ -15,6 +15,22 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+item("""Glade 3.8.0 and 3.10.0 released""", (2011, 2, 1),
+     """
+    <p>Glade 3.8.0 and 3.10.0 are now available for download.</p>
+    <p>3.8.0 is the last stable series of Glade for GTK+2 and 3.10.0 is the first stable series for GTK+3</p>
+    <p>Major changes in 3.10 compared to past stable releases:</p>
+    <ul>
+    <li>ABI stability for plugins and IDE embedders.</li>
+    <li>Improved workspace experience.</li>
+    <li>New preview feature.</li>
+    <li>All widgets now have icons.</li>
+    <li>Almost every GTK+ widget has support in Glade (still missing GtkSwitch/GtkInfoBar).</li>
+    </ul>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2011-April/001891.html">full announcement</a> for more details.</p>
+     """, 'Tristan Van Berkom')
+
+
 item("""Glade 3.9.2 released""", (2011, 2, 1),
      """
     <p>Glade 3.9.2 is now available for download.</p>

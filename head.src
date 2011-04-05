@@ -21,12 +21,12 @@
     </div>
 
     <div id="sidebar">
-        <h1>Current Version: <strong>3.6</strong></h1>
+        <h1>Current Version: <strong>3.10</strong></h1>
         <ul>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
           <li><a href="http://git.gnome.org/cgit/glade">Browse Sources</a></li>
-          <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Windows Binaries</a></li>
-          <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">MacOSX Binaries</a></li>
+          <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade3/3.6/">Older Windows Binaries</a></li>
+          <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">Older MacOSX Binaries</a></li>
         </ul>
         <h1>Documentation</h1>
           <ul>
