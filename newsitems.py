@@ -15,6 +15,17 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+item("""Glade 3.12.0 and 3.8.2 released""", (2012, 03, 26),
+     """
+    <p>Glade 3.12.0 and 3.8.2 are now available for download.</p>
+    <p>Glade 3.12.0 is the first stable release of the new series, and 3.8.2 is another bugfix release.
+It includes support for new widgets like GtkSwitch and GtkInfoBar and also
+features new workspace edit modes which let you change widget margins and alignment
+properties using nothing but the mouse!</p>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2012-February/001952.html">3.11.0 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
+
 item("""Glade 3.11.0 released""", (2012, 02, 12),
      """
     <p>Glade 3.11.0 is now available for download.</p>
@@ -22,7 +33,7 @@ item("""Glade 3.11.0 released""", (2012, 02, 12),
 It includes support for new widgets like GtkSwitch and GtkInfoBar and also
 features new workspace edit modes which let you change widget margins and alignment
 properties using nothing but the mouse!</p>
-    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2012-February/001952.html">3.11.0 release notes</a> for more details.</p>
+    <p>See the <a href="http://lists.ximian.com/pipermail/glade-devel/2012-March/001967.html">3.12.0 release notes</a> and the <a href="http://lists.ximian.com/pipermail/glade-devel/2012-March/001966.html">3.8.2 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.8.1 and 3.10.2 released""", (2011, 10, 11),
