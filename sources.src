@@ -5,7 +5,7 @@
         <p>To get the sources for the Glade project choose one of our release tarballs:</p>
         <ul>
           <li>stable tarballs for <a href="http://ftp.gnome.org/pub/GNOME/sources/glade3/3.8/">Glade 3.8</a> for GTK+2</li>
-          <li>stable tarballs for <a href="http://ftp.gnome.org/pub/GNOME/sources/glade/3.10/">Glade 3.10</a> for GTK+3</li>
+          <li>stable tarballs for <a href="http://ftp.gnome.org/pub/GNOME/sources/glade/3.12/">Glade 3.12</a> for GTK+3</li>
         </ul>
 
 	<p>Or use our <a href="http://git.gnome.org/cgit/glade">git repository</a> to get the bleeding edge source code. To clone it you need to type:
