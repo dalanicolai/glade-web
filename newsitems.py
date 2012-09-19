@@ -19,7 +19,7 @@ item("""Glade 3.14 released""", (2012, 9, 19),
      """
     <p>Glade 3.14.0 is now available for download.</p>
     <p>Glade 3.14.0 is the first release in the new stable series.
-It a new UI implementation made with glade itself! and new features like a preference dialog and notify detail support.
+It has a new UI implementation made with glade itself! and new features like a preference dialog and notify detail support.
 It also brings back to life GtkAssistant support and adds style classes support.
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-September/001987.html">3.14.0 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
