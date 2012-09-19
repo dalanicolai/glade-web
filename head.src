@@ -21,7 +21,7 @@
     </div>
 
     <div id="sidebar">
-        <h1>Current Version: <strong>3.12</strong></h1>
+        <h1>Current Version: <strong>3.14</strong></h1>
         <ul>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
           <li><a href="http://git.gnome.org/cgit/glade">Browse Sources</a></li>
