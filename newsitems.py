@@ -14,6 +14,13 @@ item = lambda *x: items.append(x)
 #      "INSERT AUTHOR HERE")
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
+item("""Glade 3.8.3 released""", (2012, 12, 03),
+     """
+    <p>Glade 3.8.3 is now available for download.</p>
+    <p>It is the third bug fix release in the series.
+    <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-December/002005.html">3.8.3 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
 item("""Glade 3.14.2 released""", (2012, 11, 26),
      """
     <p>Glade 3.14.2 is now available for download.</p>
