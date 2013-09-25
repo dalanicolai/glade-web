@@ -21,7 +21,7 @@
     </div>
 
     <div id="sidebar">
-        <h1>Current Version: <strong>3.14</strong></h1>
+        <h1>Current Version: <strong>3.16</strong></h1>
         <ul>
           <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
           <li><a href="http://git.gnome.org/cgit/glade">Browse Sources</a></li>
@@ -31,7 +31,7 @@
         <h1>Documentation</h1>
           <ul>
             <li><a href="http://live.gnome.org/Glade/Tutorials">Tutorials</a></li>
-            <li><a href="http://library.gnome.org/devel/gladeui/3.6/">API Reference</a></li>
+            <li><a href="http://library.gnome.org/devel/gladeui/3.16/">API Reference</a></li>
           </ul>
         <h1>Help</h1>
           <ul>
