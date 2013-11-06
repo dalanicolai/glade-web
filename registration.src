@@ -245,7 +245,7 @@ function check_set_visibility ()
 </head>
 <body>
 
-<form name="GladeForm" action="/cgi-bin/registration.py" onsubmit="return validate_form ();" method="post" enctype="application/x-www-form-urlencoded">
+<form name="GladeForm" action="registration.py" onsubmit="return validate_form ();" method="post" enctype="application/x-www-form-urlencoded">
 <div class="body">
 <div class="bodybg">
 <div class="bodypadd">
