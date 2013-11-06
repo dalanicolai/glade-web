@@ -8,6 +8,7 @@ PYTHON = python
 PROCESSOR = ${PYTHON} stp.py
 
 SRC_PAGES = 			\
+	registration.src	\
 	sources.src 		\
 	index.src 		\
 	news.src
@@ -50,9 +51,9 @@ ${WEBDIR}/%.html: %.src
 news.rss: newsitems.py feed.py
 	${PYTHON} feed.py
 
-extras: ${CSS_FILES} images/*.png
+extras: ${CSS_FILES} images/*.png images/*.svg
 	cp ${CSS_FILES} ${WEBDIR}
-	cp images/*.png ${IMGDIR}
+	cp images/*.png images/*.svg ${IMGDIR}
 	cp news.rss ${WEBDIR}
 	cp .htaccess ${WEBDIR}/.htaccess
 
