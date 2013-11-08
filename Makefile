@@ -50,9 +50,9 @@ ${WEBDIR}/%.html: %.src
 news.rss: newsitems.py feed.py
 	${PYTHON} feed.py
 
-extras: ${CSS_FILES} images/*.png images/*.svg
+extras: ${CSS_FILES} images/*.png
 	cp ${CSS_FILES} ${WEBDIR}
-	cp images/*.png images/*.svg ${IMGDIR}
+	cp images/*.png ${IMGDIR}
 	cp news.rss ${WEBDIR}
 	cp .htaccess ${WEBDIR}/.htaccess
 
