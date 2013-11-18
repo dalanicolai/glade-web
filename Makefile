@@ -12,10 +12,10 @@ SRC_PAGES = 			\
 	index.src 		\
 	news.src
 
-HTML_PAGES = $(patsubst %.src, ${WEBDIR}/%.html, ${SRC_PAGES}) \
-	registration.html
+HTML_PAGES = $(patsubst %.src, ${WEBDIR}/%.html, ${SRC_PAGES})
 
 COMMON_PAGES = head.src foot.src newsitems.py feed.py
+STATIC_PAGES = registration.html
 CSS_FILES = default.css
 
 all: start_log pages finish_log
@@ -52,7 +52,8 @@ ${WEBDIR}/%.html: %.src
 news.rss: newsitems.py feed.py
 	${PYTHON} feed.py
 
-extras: ${CSS_FILES} images/*.png images/*.svg
+extras: ${CSS_FILES} ${STATIC_PAGES} images/*.png images/*.svg
+	cp ${STATIC_PAGES} ${WEBDIR}
 	cp ${CSS_FILES} ${WEBDIR}
 	cp images/*.png ${IMGDIR}
 	cp images/*.svg ${IMGDIR}
