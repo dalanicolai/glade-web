@@ -12,7 +12,9 @@ SRC_PAGES = 			\
 	index.src 		\
 	news.src
 
-HTML_PAGES = $(patsubst %.src, ${WEBDIR}/%.html, ${SRC_PAGES})
+HTML_PAGES = $(patsubst %.src, ${WEBDIR}/%.html, ${SRC_PAGES}) \
+	registration.html
+
 COMMON_PAGES = head.src foot.src newsitems.py feed.py
 CSS_FILES = default.css
 
@@ -50,9 +52,10 @@ ${WEBDIR}/%.html: %.src
 news.rss: newsitems.py feed.py
 	${PYTHON} feed.py
 
-extras: ${CSS_FILES} images/*.png
+extras: ${CSS_FILES} images/*.png images/*.svg
 	cp ${CSS_FILES} ${WEBDIR}
 	cp images/*.png ${IMGDIR}
+	cp images/*.svg ${IMGDIR}
 	cp news.rss ${WEBDIR}
 	cp .htaccess ${WEBDIR}/.htaccess
 
