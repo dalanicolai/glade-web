@@ -30,8 +30,9 @@
         </ul>
         <h1>User Survey</h1>
 	  <ul>
-	    <li><a href="registration.html">Take survey now!</a>
-	    <li>Results not available yet
+	    <li><a href="registration.html">Take survey now!</a></li>
+	    <li>Results not available yet</li>
+	  </ul>
         <h1>Documentation</h1>
           <ul>
             <li><a href="http://live.gnome.org/Glade/Tutorials">Tutorials</a></li>
