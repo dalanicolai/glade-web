@@ -1,18 +1,32 @@
 /* Basic tags */
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Verdana", "Arial", sans-serif;
+html {
+  background: gray;
+  background: -webkit-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
+  background: -o-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
+  background: -moz-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
+  background: repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
+}
 
-  background-color: #FFFFFF;
+body {
+  width: 64em;
+  margin: 0px auto;
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: #FFF;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#bodybg {
 }
 
 #body {
-  margin: 3em 20em 0em 1em;
+  min-height:48em;
+  margin: 3em 16em 0em 1em;
   padding: 0px;
-  background-color: #FFFFFF;
-  color: #000000;
+  color: #000;
   clear: left;
+  background: url(images/glade-bg.svg) no-repeat bottom right;
+  background-size: 32em; 
 }
 
 a img {
@@ -32,12 +46,24 @@ a:hover {
 }
 
 /* Common page elements: Header, footer, etc. */
+div.hdr_top {
+  position: fixed;
+  top: 0px;
+  width: 64em;
+  margin: 0px auto;
+}
+
+div.hdr_top a {
+  color: white;
+  text-decoration:none;
+  outline: 0;
+}
 
 #hdr {
   background-color: #4a90d9;
-  color: #FFFFFF;
-  padding: 0.5em;
-  border-bottom: 1px solid #000000;
+  color: #FFF;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 #hdr h1 {
@@ -86,7 +112,7 @@ a:hover {
 }
 
 .news h1.title a {
-  color:#555555;
+  color:#555;
 }
 
 .news h2.title {
@@ -116,11 +142,11 @@ a:hover {
 }
 
 #sidebar {
-  float: right;
-  width: 18em;
-  margin: 1em;
-  padding: 0em 0.5em;
-  border-left: 1px dashed #dddddd;
+  position:fixed;
+  width: 14em;
+  margin: 1em 0em 0em 49em;
+  padding: 0.5em;
+  border-left: 1px dashed #ddd;
 }
 
 #sidebar p {
@@ -132,7 +158,7 @@ a:hover {
 #sidebar h1 {
   font-family: sans-serif;
   font-weight: bold;
-  background-color: #eeeeee;
+  background-color: #eee;
   padding: 0.3em;
 }
 
@@ -161,16 +187,21 @@ a:hover {
   font-size: small;
   clear: both;
   background-color: #4a90d9;
-  color: #FFFFFF;
-  margin: 2em 0em 0em 0em;
+  color: #FFF;
+  margin: 0px;
   padding: 1em;
-  border-top: 1px solid #000000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  position:relative;
+  z-index: 10;
 }
 
 /* Generic Classes */
 
 code {
+  margin: 1em;
+  padding: 1em;
   white-space: pre;
   font-family: monospace;
-  background-color: #eeeeee;
+  background-color: #eee;
 }

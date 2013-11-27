@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 <head>
        <title>Glade - A User Interface Designer</title>
-       <link rel="icon" type="image/png" href="http://developer.gnome.org/images/gnome-16.png" />
+       <link rel="icon" type="image/png" href="images/favicon.png" />
        <link rel="alternate" type="application/rss+xml" title="Glade News" href="http://glade.gnome.org/news.rss" />
        <meta http-equiv="Content-Type"
              content="text/html; charset=utf-8"/>
@@ -15,15 +15,18 @@
 
 <body>
 
+    <div id="hdr" class="hdr_top">
+        <a href="index.html"><img alt="logo" src="https://git.gnome.org/browse/glade/plain/data/icons/hicolor/48x48/apps/glade.png" style="margin: 0px 1em;"/>
+        <h1>Glade - A User Interface Designer</h1></a>
+    </div>
     <div id="hdr">
-        <img alt="logo" src="images/glade.png" />
-        <h1>Glade - A User Interface Designer</h1>
+        <h1>G</h1>
     </div>
 
     <div id="sidebar">
         <h1>Current Version: <strong>3.16</strong></h1>
         <ul>
-          <li><a href="http://glade.gnome.org/sources.html">Download Sources</a></li>
+          <li><a href="sources.html">Download Sources</a></li>
           <li><a href="http://git.gnome.org/cgit/glade">Browse Sources</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/glade/">Windows Binaries</a></li>
           <li><a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/glade3/3.6/">Older MacOSX Binaries</a></li>
@@ -48,7 +51,7 @@
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
             <li><a href="https://bugzilla.gnome.org/buglist.cgi?query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=glade">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>
-            <li><a href="http://live.gnome.org/Glade">Wiki</a></li>
+            <li><a href="https://wiki.gnome.org/Apps/Glade">Wiki</a></li>
           </ul>
           <ul id="ircinfo">
             <li><strong>IRC</strong></li>
@@ -59,7 +62,7 @@
           <ul>
             <li><a href="http://projects.gnome.org/anjuta/">Anjuta IDE</a></li>
             <li><a href="http://projects.gnome.org/nemiver/">Nemiver Debugger</a></li>
-            <li><a href="http://live.gnome.org/devhelp">Devhelp documentation browser</a></li>
+            <li><a href="https://wiki.gnome.org/Apps/Devhelp">Devhelp API browser</a></li>
             <li><a href="http://chipx86.github.com/gtkparasite/">Parasite</a></li>
           </ul>
     </div>
