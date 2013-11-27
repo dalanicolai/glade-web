@@ -14,6 +14,14 @@ item = lambda *x: items.append(x)
 #      "INSERT AUTHOR HERE")
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
+item("""Glade 3.14.3 released""", (2013, 11, 27),
+     """
+    <p>Glade 3.14.3 is now available for download.</p>
+    <p>This release is meant for distributions that are not shipping the current stable release
+(version 3.16) and have a version of glib >= 2.37 which exposed a bug in Glade.</p>
+    <a href="http://lists.ximian.com/pipermail/glade-devel/2013-November/002041.html">3.14.3 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
 item("""Glade User Survey goes live""", (2013, 11, 18),
      """
     <p>We are conducting a survey to better know our user base</p>
@@ -23,35 +31,35 @@ item("""Glade User Survey goes live""", (2013, 11, 18),
 item("""Glade 3.16.0 released""", (2013, 9, 24),
      """
     <p>Glade 3.16.0 is now available for download.</p>
-    <p>Glade 3.16.0 is the latest stable release.
+    <p>Glade 3.16.0 is the latest stable release.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2013-September/002030.html">3.16.0 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.8.4 released""", (2013, 9, 19),
      """
     <p>Glade 3.8.3 is now available for download.</p>
-    <p>It is the fourth bug fix release in the series.
+    <p>It is the fourth bug fix release in the series.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2013-September/002028.html">3.8.4 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.15.0 released""", (2013, 3, 06),
      """
     <p>Glade 3.15.0 is now available for download.</p>
-    <p>Glade 3.15.0 is the first development release in the series.
+    <p>Glade 3.15.0 is the first development release in the series.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2013-March/002006.html">3.15.0 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.8.3 released""", (2012, 12, 03),
      """
     <p>Glade 3.8.3 is now available for download.</p>
-    <p>It is the third bug fix release in the series.
+    <p>It is the third bug fix release in the series.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-December/002005.html">3.8.3 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.14.2 released""", (2012, 11, 26),
      """
     <p>Glade 3.14.2 is now available for download.</p>
-    <p>Glade 3.14.2 is the second bug fix release in the series.
+    <p>Glade 3.14.2 is the second bug fix release in the series.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-November/002004.html">3.14.2 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
@@ -59,7 +67,7 @@ item("""Glade 3.14.1 released""", (2012, 10, 14),
      """
     <p>Glade 3.14.1 is now available for download.</p>
     <p>Glade 3.14.1 aka New York City Release, is the first bug fix release in the series.
-It features an important bug fix where some properties in GtkButton where not editable.
+It features an important bug fix where some properties in GtkButton where not editable.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-October/001998.html">3.14.1 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
@@ -68,14 +76,14 @@ item("""Glade 3.14 released""", (2012, 9, 19),
     <p>Glade 3.14.0 is now available for download.</p>
     <p>Glade 3.14.0 is the first release in the new stable series.
 It has a new UI implementation made with glade itself! and new features like a preference dialog and notify detail support.
-It also brings back to life GtkAssistant support and adds style classes support.
+It also brings back to life GtkAssistant support and adds style classes support.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-September/001987.html">3.14.0 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.10.3 and 3.12.2 released""", (2012, 9, 19),
      """
     <p>Glade 3.10.3 and 3.12.2 are now available for download.</p>
-    <p>Glade 3.10.3 and 3.12.2 are bugfix release of the old stable series.
+    <p>Glade 3.10.3 and 3.12.2 are bugfix release of the old stable series.</p>
     <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2012-September/001989.html">3.10.3 release notes</a> and the <a href="http://lists.ximian.com/pipermail/glade-devel/2012-September/001986.html">3.12.2 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
