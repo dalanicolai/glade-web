@@ -1,22 +1,8 @@
 /* Basic tags */
-html {
-  background: gray;
-  background: -webkit-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: -o-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: -moz-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-}
-
 body {
   width: 64em;
   margin: 0px auto;
   font-family: "Verdana", "Arial", sans-serif;
-  background-color: #FFF;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
-
-#bodybg {
 }
 
 #body {
@@ -62,15 +48,14 @@ div.hdr_top a {
 #hdr {
   background-color: #4a90d9;
   color: #FFF;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border: 1px solid #000;
 }
 
 #hdr h1 {
   margin: 0em;
   padding-top: 0.5em;
   font-size: 165%;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 2px black;
 }
 
 #hdr h2 {
@@ -190,8 +175,7 @@ div.hdr_top a {
   color: #FFF;
   margin: 0px;
   padding: 1em;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border: 1px solid #000;
   position:relative;
   z-index: 10;
 }
