@@ -1,18 +1,24 @@
 /* Basic tags */
-body {
+html{
+  height: 100%;
   width: 64em;
-  margin: 0px auto;
+  margin: 0em auto;
   font-family: "Verdana", "Arial", sans-serif;
+  overflow-y: scroll;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
 }
 
 #body {
-  min-height:48em;
-  margin: 3em 16em 0em 1em;
+  min-height: 48em;
+  margin: 4em 16em 1em 1em;
   padding: 0px;
   color: #000;
-  clear: left;
   background: url(images/glade-bg.svg) no-repeat bottom right;
-  background-size: 32em; 
+  background-size: 32em;
 }
 
 a img {
@@ -39,23 +45,28 @@ div.hdr_top {
   margin: 0px auto;
 }
 
-div.hdr_top a {
-  color: white;
-  text-decoration:none;
-  outline: 0;
-}
-
 #hdr {
+  position: fixed;
+  top: 0px;
+  width: 64em;
+  margin: 0px auto;
+
+  box-shadow: 1px 1px 4px gray;
+  border:1px solid black;
   background-color: #4a90d9;
-  color: #FFF;
-  border: 1px solid #000;
 }
 
 #hdr h1 {
   margin: 0em;
-  padding-top: 0.5em;
+  padding: 0.5em 0em 0.25em 0em;
   font-size: 165%;
   text-shadow: 1px 1px 2px black;
+}
+
+#hdr a {
+  color: white;
+  text-decoration:none;
+  outline: 0;
 }
 
 #hdr h2 {
@@ -129,7 +140,7 @@ div.hdr_top a {
 #sidebar {
   position:fixed;
   width: 14em;
-  margin: 1em 0em 0em 49em;
+  margin: 0em 0em 0em 49em;
   padding: 0.5em;
   border-left: 1px dashed #ddd;
 }
@@ -170,7 +181,6 @@ div.hdr_top a {
 #copyright {
   text-align: center;
   font-size: small;
-  clear: both;
   background-color: #4a90d9;
   color: #FFF;
   margin: 0px;

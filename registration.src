@@ -1,3 +1,5 @@
+<!--stp:include('head.src') -->
+
 <!--
  * registration.html: Glade registration and survey form
  *
@@ -20,44 +22,21 @@
  * Authors:
  *   Juan Pablo Ugarte
 -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
-<html>
-<head>
-  <meta charset="utf-8" content="Glade survey"/>
-
-  <title>Glade Survey</title>
   <style media="screen" type="text/css">
 
-body {
-  width: 768px;
-  margin: 12px auto;
-  background: gray;
-  background: -webkit-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: -o-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: -moz-repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-  background: repeating-linear-gradient(#888, #888 4px, #7B7B7B 4px, #7B7B7B 8px) fixed;
-}
-
-div.body {
-  border: solid #61605e 4px;
+#body {
+  padding: 0.5em;
+  border: solid gray 4px;
   border-radius: 16px;
-  background-color: white;
-}
-
-div.bodybg {
   background: url(images/glade-bg.svg) no-repeat bottom center fixed;
-  background-size: 768px; 
-}
-
-div.bodypadd {
-  padding: 12px;
+  background-size: 42em;
 }
 
 h2 {
   margin: 0;
   color: white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 2px black;
   background-color: #4a90d9;
   border-radius: 8px;
   padding: 12px;
@@ -111,9 +90,13 @@ div.submit {
 }
 
 div.footnotes {
-  color: white;
-  text-shadow: 1px 1px 1px black;
   text-align:right;
+}
+
+div.textbox a, a:hover, a:focus, a:active{
+  border: none;
+  text-decoration: none;
+  color: white;
 }
 
 a.whitelink {
@@ -246,15 +229,10 @@ function check_set_visibility ()
 
   //-->
   </script>
-</head>
-<body>
-
+<div id="body">
 <form name="GladeForm" action="https://people.gnome.org/~jpu/glade/registration.php" onsubmit="return validate_form ();" method="post" enctype="application/x-www-form-urlencoded">
-<div class="body">
-<div class="bodybg">
-<div class="bodypadd">
 
-<h2>Glade User Information</h2><br>
+<h2>User Information</h2><br>
 
 <table summary="">
 <tr><td>
@@ -476,11 +454,6 @@ All the data will be stored in a private location and will not be shared with th
 <button name="send_request_button" type="submit">Submit</button>
 information to glade.gnome.org (See below for details)
 </div>
-
-</div></div></div>
-
-</form>
-
 <br>
 <div class="textbox">
 <b><a id="privacy">Privacy Note:</a></b><br><br>
@@ -490,10 +463,10 @@ in case you want to modify something or add extra comments.<br>
 Only statistics compiled from the whole dataset will be shared publicly.<br>
 Individual data will be stored in a private database and it will not be shared with the public or any other third party.
 </div>
-<br><br>
-<div class="footnotes">
-* Required fields<br>
-</div>
+<br>
+<div class="footnotes">* Required fields</div>
 
-</body>
-</html>
+</div>
+</form>
+</div>
+<!--stp:include('foot.src') -->

@@ -15,12 +15,9 @@
 
 <body>
 
-    <div id="hdr" class="hdr_top">
+    <div id="hdr">
         <a href="index.html"><img alt="logo" src="https://git.gnome.org/browse/glade/plain/data/icons/hicolor/48x48/apps/glade.png" style="margin: 0px 1em;"/>
         <h1>Glade - A User Interface Designer</h1></a>
-    </div>
-    <div id="hdr">
-        <h1>G</h1>
     </div>
 
     <div id="sidebar">

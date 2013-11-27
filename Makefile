@@ -10,12 +10,12 @@ PROCESSOR = ${PYTHON} stp.py
 SRC_PAGES = 			\
 	sources.src 		\
 	index.src 		\
+	registration.src	\
 	news.src
 
 HTML_PAGES = $(patsubst %.src, ${WEBDIR}/%.html, ${SRC_PAGES})
 
 COMMON_PAGES = head.src foot.src newsitems.py feed.py
-STATIC_PAGES = registration.html
 CSS_FILES = default.css
 
 all: start_log pages finish_log
@@ -53,7 +53,6 @@ news.rss: newsitems.py feed.py
 	${PYTHON} feed.py
 
 extras: ${CSS_FILES} ${STATIC_PAGES} images/*.png images/*.svg
-	cp ${STATIC_PAGES} ${WEBDIR}
 	cp ${CSS_FILES} ${WEBDIR}
 	cp images/*.png ${IMGDIR}
 	cp images/*.svg ${IMGDIR}
