@@ -415,7 +415,7 @@ All the data will be stored in a private location and will not be shared with th
 </div>
 
 <div class="question"><h3>What aspect of the software needs the most improvement?</h3>
-<textarea name="improvement_other" rows="4" style="width:100%"></textarea>
+<textarea name="improvement" rows="4" style="width:100%"></textarea>
 </div>
 
 <div class="question"><h3>In your opinion what is the biggest problem with Glade?</h3>
