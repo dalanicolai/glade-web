@@ -14,6 +14,27 @@ item = lambda *x: items.append(x)
 #      "INSERT AUTHOR HERE")
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
+item("""Glade 3.18.2 released""", (2014, 4, 14),
+     """
+    <p>Glade 3.18.2 is now available for download.</p>
+    <p>Glade 3.18.2 is the second bug fix release in the series.</p>
+    <p>See <a href="http://lists.ximian.com/pipermail/glade-users/2014-April/005736.html">3.18.2 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
+item("""Glade 3.18.1 released""", (2014, 3, 26),
+     """
+    <p>Glade 3.18.1 is now available for download.</p>
+    <p>Glade 3.18.1 is the first bug fix release in the series.</p>
+    <p>See <a href="http://lists.ximian.com/pipermail/glade-users/2014-March/005729.html">3.18.1 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
+item("""Glade 3.18.0 released""", (2014, 3, 24),
+     """
+    <p>Glade 3.18.0 is now available for download.</p>
+    <p>Glade 3.18.0 is the new stable release for GNOME 3.12.</p>
+    <p>See <a href="http://lists.ximian.com/pipermail/glade-users/2014-March/005727.html">3.18.0 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
 item("""Glade 3.16.1 released""", (2013, 12, 18),
      """
     <p>Glade 3.16.1 is now available for download.</p>
