@@ -25,7 +25,7 @@ item("""Glade 3.8.5 released""", (2014, 5, 12),
      """
     <p>Glade 3.8.5 is now available for download.</p>
     <p>It is the fifth bug fix release in the series.</p>
-    <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2014-May/002063.html">3.8.5 release notes</a> for more details.</p>
+    <p>See <a href="http://lists.ximian.com/pipermail/glade-devel/2014-May/002063.html">3.8.5 release notes</a> for more details.</p>
      """, 'Juan Pablo Ugarte')
 
 item("""Glade 3.18.2 released""", (2014, 4, 14),
