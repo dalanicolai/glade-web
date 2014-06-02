@@ -396,9 +396,9 @@ All the data will be stored in a private location and will not be shared with th
 </div>
 
 <div class="question"><h3>Under what kind of license(s) do you release the software you used Glade to create?</h3>
-<label><input type="checkbox" name="soft_free" value="1"/> Free software</label><br>
-<label><input type="checkbox" name="soft_open" value="1"/> Open source software</label><br>
-<label><input type="checkbox" name="soft_commercial" value="1"/> Commercial/Closed software</label><br>
+<label><input type="checkbox" name="soft_free" value="1"/> Free Software</label><br>
+<label><input type="checkbox" name="soft_open" value="1"/> Open Source</label><br>
+<label><input type="checkbox" name="soft_commercial" value="1"/> Commercial/Closed</label><br>
 <label><input type="checkbox" name="soft_none" value="1"/> None - distributed internally</label>
 </div>
 
