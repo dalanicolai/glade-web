@@ -15,10 +15,9 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
-item("""Glade 3.21.0 released""", (2018, 1, 8),
-     """
-    <p>New IRC channel!!!</p>
-    <p>Glade IRC channel moved to #glade</p>""", 'Juan Pablo Ugarte')
+item("""New IRC channel!!!""", (2018, 1, 8),
+     """<p>Glade IRC channel moved to #glade</p>""",
+     'Juan Pablo Ugarte')
 
 item("""Glade 3.21.0 released""", (2017, 12, 30),
      """
