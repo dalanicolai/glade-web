@@ -15,6 +15,20 @@ item = lambda *x: items.append(x)
 
 # http://news.gmane.org/gmane.comp.gnome.gtk%2B.python/
 
+item("""Glade 3.20.4 released""", (2018, 3, 3),
+     """
+    <p>Glade 3.20.4 is now available for download.</p>
+    <p>Glade 3.20.4 is the fourth bug-fix release in the 3.20 series.</p>
+    <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2018-March/002129.html">3.20.4 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
+item("""Glade 3.20.3 released""", (2018, 2, 17),
+     """
+    <p>Glade 3.20.3 is now available for download.</p>
+    <p>Glade 3.20.3 is the third bug-fix release in the 3.20 series.</p>
+    <p> <a href="http://lists.ximian.com/pipermail/glade-devel/2018-February/002128.html">3.20.3 release notes</a> for more details.</p>
+     """, 'Juan Pablo Ugarte')
+
 item("""New IRC channel!!!""", (2018, 1, 8),
      """<p>Glade IRC channel moved to #glade</p>""",
      'Juan Pablo Ugarte')
