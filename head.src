@@ -45,7 +45,7 @@
         <h1>Development</h1>
           <ul>
             <li><a href="http://lists.ximian.com/mailman/listinfo/glade-devel">Developers mailing list</a></li>
-            <li><a href="https://bugzilla.gnome.org/buglist.cgi?query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=glade">Bug list</a></li>
+            <li><a href="https://gitlab.gnome.org/GNOME/glade/issues">Bug list</a></li>
             <li><a href="http://live.gnome.org/Glade/Roadmap">Roadmap</a></li>
             <li><a href="https://wiki.gnome.org/Apps/Glade">Wiki</a></li>
           </ul>
